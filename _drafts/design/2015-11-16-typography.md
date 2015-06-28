@@ -4,21 +4,15 @@ title: "Wonderful Typography"
 subheadline: "Reading Experience"
 meta_teaser: "Feeling Responsive uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console."
 teaser: "<em>Feeling Responsive</em> uses <a href='https://www.google.com/fonts/specimen/Volkhov'>Volkhov</a> for headlines, <a href='https://www.google.com/fonts/specimen/Lato'>Lato</a> for everything else and if you are in need to show some code, it will be in <a href='http://www.microsoft.com/typography/fonts/family.aspx?FID=18'>Lucida Console</a> or <a href='http://en.wikipedia.org/wiki/Monaco_(typeface)'>Monaco</a>."
-header:
-    image: homepage_typography.jpg
-    background-color: "#262930"
-    caption: This is a caption for the header image with link
-    caption_url: https://unsplash.com/
+header: no
 image:
-    thumb:  homepage_typography-thumb.jpg
+    thumb:  homepage_typography_thumb.jpg
     homepage: homepage_typography.jpg
     caption: Image by Antonio
     caption_url: "http://www.aisleone.net/"
 categories:
     - design
 ---
-<!--more-->
-
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
 <div class="panel radius" markdown="1">
@@ -33,9 +27,9 @@ categories:
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-## Lato – A Sans Serif Typeface Family
+## Lato – A Sans Serif Typeface Family
 
-[<dfn>Lato</dfn>][4] is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic. »Lato« means »Summer« in Polish. In December 2010 the Lato family was published under the Open Font License by his foundry tyPoland, with support from Google. 
+[Lato][4] is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic. »Lato« means »Summer« in Polish. In December 2010 the Lato family was published under the Open Font License by his foundry tyPoland, with support from Google. 
 
 > <span class="teaser">I do not think of type as something that should be readable. It should be beautiful.</span><cite>[Ed Benguiat][3]</cite>
 
@@ -48,7 +42,7 @@ The semi-rounded details of the letters give Lato a feeling of warmth, while the
 
 ## About Volkhov &lt;h2&gt; 
 
-<dfn>Volkhov</dfn> is a low-contrast seriffed typeface with a robust character, intended for providing a motivating reading experience. Volkhov was designed by Ivan Petrov.
+Volkhov is a low-contrast seriffed typeface with a robust character, intended for providing a motivating reading experience. Volkhov was designed by Ivan Petrov.
 
 ### Feeling Responsive uses Volkhov for...  &lt;h3&gt;
 
@@ -64,7 +58,7 @@ The semi-rounded details of the letters give Lato a feeling of warmth, while the
 
 As a four-weight family it is well-suited for complex text environments being economic and legible, contemporary and prominent. Many of its design solutions relate to this purpose: large open counters, rather short descenders, and brutal asymmetric serifs.
 
-##### Heading in Volkhov &lt;h5&gt;
+#### Heading in Volkhov &lt;h5&gt;
 
 Spacing in Bold is slightly increased compared to the normal weight, because the bold mass is mostly grown inwards. The Italic has a steep angle and a distinctive calligraphically reminiscent character, as a counterpart to the rigorous Regular.
 
@@ -77,14 +71,14 @@ Spacing in Bold is slightly increased compared to the normal weight, because the
 44px @ 1:1.5 – Ideal text size  
 16px @ 1:1.5 – Important number
 
-| Modular Scale
------- | ----- | ----- | -------
-44.000 | 1     | 2.75  | 338.462
-36.000 | 0.818 | 2.25  | 276.923
-29.333 | 0.667 | 1.833 | 225.638
-24.000 | 0.545 | 1.5   | 184.615
-19.555 | 0.444 | 1.222 | 150.423
-16.000 | 0.364 | 1     | 123.077
+Modular Scale |    |   |
+---------- | ----------- | -----
+44.000  |   1 |  2.75   |  338.462
+36.000  |   0.818  |  2.25   |  276.923
+29.333  |   0.667 |   1.833  |  225.638
+24.000   |  0.545  |  1.5 |   184.615
+19.555  |   0.444 |   1.222   | 150.423
+16.000 |    0.364   | 1  |  123.077
 
 
 
@@ -271,15 +265,10 @@ Let's <mark>mark this hint</mark> to give you a clue.
 
 
 
+
 ### &lt;br&gt;
 
 Need a break? I give you three!<br><br><br>
-
-
-## Footnotes
-
-If you need footnotes for your posts, articles and entries, the Kramdown-Parser [^1] got you covered. How to use footnotes? Read this footnote. [^2]
-
 
 
  [1]: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list
@@ -294,9 +283,6 @@ If you need footnotes for your posts, articles and entries, the Kramdown-Parser 
  [10]: #
 
 
-[^1]: Find out more about Kramdown on <http://kramdown.gettalong.org/>
-[^2]: Kramdown has an excellent documentation of all its features. Check out, on how to [footnotes](http://kramdown.gettalong.org/syntax.html#footnotes).
-
 # &lt;h1&gt;-Heading in Volkhov
 
 ## &lt;h2&gt;-Heading in Volkhov
@@ -307,7 +293,7 @@ If you need footnotes for your posts, articles and entries, the Kramdown-Parser 
 
 ##### &lt;h5&gt;-Heading in Volkhov
 
-###### &lt;h6&gt;-Heading in Volkhov
+##### &lt;h6&gt;-Heading in Volkhov
 
 
 ## Tables
