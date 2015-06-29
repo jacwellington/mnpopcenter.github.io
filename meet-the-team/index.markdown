@@ -20,7 +20,7 @@ comments: []
 ---
 <h3>Colin Davis</h3></p>
 <p><a href="http://tech.popdata.org/wp-content/uploads/2015/01/colin.jpg"><img class=" wp-image-422 size-thumbnail alignright" src="http://tech.popdata.org/wp-content/uploads/2015/01/colin-150x150.jpg" alt="colin" width="150" height="150" /></a>Colin originally got interested in tech through game programming. He ended up working as&nbsp;a call center technician for Zeos/Micron in the mid 90s, during which he spoke to around eight thousand people, most of whom you could locate on an anger spectrum ranging from mildly put out to incoherent with rage. He left to begin a startup in the lead-up to the tech crash.</p>
-<p>Colin started at MPC in 2001 as a "Junior Application Programmer" and now works a senior software developer. He&rsquo;s been responsible for data extraction for the MPC&rsquo;s end users (the "Extract Engine") for IPUMS and Terra Populus and NHGIS in its latest version. Also responsible for data conversion on all microdata products.</p>
+<p>Colin started at MPC in 2001 as a "Junior Application Programmer" and now works a senior software developer. He's been responsible for data extraction for the MPC's end users (the "Extract Engine") for IPUMS and Terra Populus and NHGIS in its latest version. Also responsible for data conversion on all microdata products.</p>
 <p>Currently he uses C++ 11, Java and Ruby professionally. For hobby projects Colin has also tinkered with Go, D, Scheme, Perl, and is interested in learning Rust and Clojure.</p>
 <p><img class="alignnone wp-image-364" src="http://tech.popdata.org/wp-content/uploads/2014/12/blog.png" alt="blog" width="30" height="30" /></p>
 <hr />
@@ -90,7 +90,7 @@ comments: []
 <h3>Will Lane</h3></p>
 <p><a href="http://tech.popdata.org/wp-content/uploads/2015/01/image-e1430756054622.png"><img class=" size-thumbnail wp-image-750 alignright" src="http://tech.popdata.org/wp-content/uploads/2015/01/image-e1430756054622-150x150.png" alt="will_lane" width="150" height="150" /></a><br />
 I originally got into computers when my dad started a custom build to order computer company when I was eight years old. Shortly after, I began building and fixing computers for my family and some friends.</p>
-<p>In school I played the saxophone&nbsp;and studied jazz music and I eventually went to college to study jazz-performance. After a year or so I decided to keep music fun and switched my major to computer science, where I began to learn programming. I graduated a few years ago and I&rsquo;ve worked for a few private-sector education companies, but I came to the MPC in pursuit of interesting problems and data that can be used in research to help solve some of our greatest problems.</p>
+<p>In school I played the saxophone&nbsp;and studied jazz music and I eventually went to college to study jazz-performance. After a year or so I decided to keep music fun and switched my major to computer science, where I began to learn programming. I graduated a few years ago and I've worked for a few private-sector education companies, but I came to the MPC in pursuit of interesting problems and data that can be used in research to help solve some of our greatest problems.</p>
 <p>I am currently working on dropping a shiny new UI on our Terrapop product.</p>
 <hr />
 <h3>Willy Lee</h3></p>

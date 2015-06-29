@@ -38,7 +38,7 @@ urlimg: "http://mnpopcenter.github.io/images/"
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: "POPTech-banner.png"
 
 
 # Paginates all X entries
@@ -53,6 +53,7 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 permalink: /:categories/:title/
 highlight: pygments
+highlighter: pygments  #flf added
 excerpt_separator: "\n\n"
 exclude: []
 include: ['.htaccess']
