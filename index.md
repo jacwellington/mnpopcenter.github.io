@@ -8,7 +8,7 @@
 layout: mpc-frontpage
 title: "MPC IT Tech Blog"
 header:
-   image_fullwidth: "header_unsplash_12.jpg"
+   image_fullwidth: "header_science.png"
 widget-1:
     title: "About the MPC"
     url: 'http://www.pop.umn.edu'
