@@ -14,7 +14,7 @@ comments: []
 permalink: /about/about-mpc-it/
 
 ---
-The MPC's IT Core is a team of nearly 20 developers and sysadmins who collectively build all of the systems required to produce and disseminate the many <a title="Data Products" href="/about/data-products/">MPC data products</a>.  That includes everything from parallelized data transformation pipelines, metadata management systems, high-performance data extract builders, and of course the websites which deliver the data to our user community.
+The MPC's IT Core is a team of 24 developers and sysadmins who collectively build all of the systems required to produce and disseminate the many <a title="Data Products" href="/about/data-products/">MPC data products</a>.  That includes everything from parallelized data transformation pipelines, metadata management systems, high-performance data extract builders, and of course the websites which deliver the data to our user community.
 
 ###Technologies
 Just about all of those systems are built using open source tools.  Ruby on Rails, Jruby, Python, Perl, MySQL, PostgreSQL, PostGIS, Apache Httpd, Passenger, Ubuntu Linux and Chef are some of the mainstays of our technology stack, and lately we've been playing with technologies like Apache Spark, Scala, Amazon Redshift and Impala.
