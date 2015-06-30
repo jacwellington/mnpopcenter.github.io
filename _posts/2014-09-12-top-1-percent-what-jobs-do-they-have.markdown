@@ -17,7 +17,7 @@ tags: []
 comments: []
 ---
 
-<a href="http://tech.popdata.org/wp-content/uploads/2014/08/data-viz-one-pct-profesions.jpg"><img class="size-full wp-image-111" src="http://tech.popdata.org/wp-content/uploads/2014/08/data-viz-one-pct-profesions.jpg" alt="The Top 1 Percent: What Jobs Do They Have?" width="800" height="380" /></a> Source: New York Times, Business Section, January 15, 2012
+<a href="/images/from_wp/data-viz-one-pct-profesions.jpg"><img class="size-full wp-image-111" src="/images/from_wp/data-viz-one-pct-profesions.jpg" alt="The Top 1 Percent: What Jobs Do They Have?" width="800" height="380" /></a> Source: New York Times, Business Section, January 15, 2012
 
 In this <a title="Top 1 Percent: What Jobs Do They Have?" href="http://www.nytimes.com/packages/html/newsgraphics/2012/0115-one-percent-occupations/index.html" target="_blank">visualization from the Business section of the New York Times</a>, IPUMS data was used to explore the profession of America's top 1%.
 

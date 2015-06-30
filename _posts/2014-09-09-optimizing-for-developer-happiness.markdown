@@ -36,7 +36,7 @@ Lacking the time, resources, and buy-in for a from-scratch rewrite, two question
 
 ## JRuby to the Rescue
 
-<a href="http://tech.popdata.org/wp-content/uploads/2014/09/java_jruby1.png"><img class="alignright wp-image-128 size-full" src="http://tech.popdata.org/wp-content/uploads/2014/09/java_jruby1.png" alt="Java to Jruby" width="203" height="80" /></a>
+<a href="/images/from_wp/java_jruby1.png"><img class="alignright wp-image-128 size-full" src="/images/from_wp/java_jruby1.png" alt="Java to Jruby" width="203" height="80" /></a>
 
 Justin realized that to pull off this delicate mission, he would need to deploy Ruby on Rails to a Java container. Lucky for him and us, we happened to be in exactly the right place at the right time.  The vibrant Twin Cities OSS community had recently released JRuby, the JVM Ruby implementation, along with a toolchain (Warbler, JRuby-Rack) tailor-made for this exact situation. So, with JRuby and friends in hand, our intrepid developer selected a small, self-contained segment of the app as his migration guinea pig.
 
@@ -50,5 +50,5 @@ If you are looking for a path off of Java, this strategy might be a compelling c
 
 In our case, it's certainly <strong>developer happiness achieved.</strong>
 
-<a href="http://tech.popdata.org/wp-content/uploads/2014/09/keep-calm-code-in-ruby-e1411412083867.png"><img class="alignnone size-full wp-image-140" src="http://tech.popdata.org/wp-content/uploads/2014/09/keep-calm-code-in-ruby-e1411412083867.png" alt="keep-calm-code-in-ruby" width="600" height="338" /></a>
+<a href="/images/from_wp/keep-calm-code-in-ruby-e1411412083867.png"><img class="alignnone size-full wp-image-140" src="/images/from_wp/keep-calm-code-in-ruby-e1411412083867.png" alt="keep-calm-code-in-ruby" width="600" height="338" /></a>
 

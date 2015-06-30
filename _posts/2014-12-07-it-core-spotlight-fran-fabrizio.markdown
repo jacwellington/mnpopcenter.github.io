@@ -14,7 +14,7 @@ categories:
 tags: []
 comments: []
 ---
-<strong><a href="http://tech.popdata.org/wp-content/uploads/2015/01/fran-corn.jpg"><img class=" size-medium wp-image-407 alignright" src="http://tech.popdata.org/wp-content/uploads/2015/01/fran-corn-300x208.jpg" alt="fran-corn" width="300" height="208" /></a>Name:  </strong>Fran Fabrizio
+<strong><a href="/images/from_wp/fran-corn.jpg"><img class=" size-medium wp-image-407 alignright" src="/images/from_wp/fran-corn-300x208.jpg" alt="fran-corn" width="300" height="208" /></a>Name:  </strong>Fran Fabrizio
 <strong>Role: </strong>IT Director
 <strong>Project: </strong>All of them?
 <strong>Favorite Dev Tool:  </strong>Coffee

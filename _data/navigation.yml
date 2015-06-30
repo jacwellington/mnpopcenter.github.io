@@ -12,18 +12,20 @@
     url: "/blog/archive/"
 
 - title: "About Us"
-  url: "/design/"
+  url: "/about/about-mpc-it/"
   side: left
   dropdown:
-  - title: "About the MPC"
-    url: "/about/about-the-mpc/"
   - title: "About MPC IT"
     url: "/about/about-mpc-it/"
+  - title: "Meet the Team"
+    url: "/meet-the-team/"
+  - title: "About the MPC"
+    url: "/about/about-the-mpc/"
   - title: "Our Data Products"
     url: "/about/data-products/"
  
 - title: "Working @ MPC"
-  url: "/headers/"
+  url: "/working-mpc/career-opportunities/"
   side: left
   dropdown:
   - title: "Career Opportunities"

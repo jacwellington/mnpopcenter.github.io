@@ -15,7 +15,7 @@ categories:
 tags: []
 comments: []
 ---
-<i><a href="http://tech.popdata.org/wp-content/uploads/2015/04/jon-renner_imag0077.png"><img class=" size-medium wp-image-674 alignright" src="http://tech.popdata.org/wp-content/uploads/2015/04/jon-renner_imag0077-300x250.png" alt="jon-renner_imag0077" width="300" height="250" /></a>Project: Historical Data</i>
+<i><a href="/images/from_wp/jon-renner_imag0077.png"><img class=" size-medium wp-image-674 alignright" src="/images/from_wp/jon-renner_imag0077-300x250.png" alt="jon-renner_imag0077" width="300" height="250" /></a>Project: Historical Data</i>
 <i>Favorite Dev Tool: Unix command line</i>
 <i>Fun Fact: I am fluent in Chinese, and speak passable Japanese.</i>
 
