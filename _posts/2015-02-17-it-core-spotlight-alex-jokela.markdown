@@ -14,7 +14,7 @@ categories:
 tags: []
 comments: []
 ---
-<strong><a href="http://tech.popdata.org/wp-content/uploads/2015/02/beekeeper-alex.jpg"><img class="alignright wp-image-588" src="http://tech.popdata.org/wp-content/uploads/2015/02/beekeeper-alex-199x300.jpg" alt="" width="232" height="350" /></a>Name:</strong> Alex C. Jokela
+<strong><a href="/images/from_wp/beekeeper-alex.jpg"><img class="alignright wp-image-588" src="/images/from_wp/beekeeper-alex-199x300.jpg" alt="" width="232" height="350" /></a>Name:</strong> Alex C. Jokela
 <strong>Project:</strong> Terra Populus
 <strong>Favorite Dev Tool:</strong> Regular Expressions
 <strong>Fun Fact:</strong> I'm pretty sure I know how to order Two Coffees...in Japanese.

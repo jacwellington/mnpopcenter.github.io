@@ -18,7 +18,7 @@ tags: []
 comments: []
 ---
 
-<a href="http://tech.popdata.org/wp-content/uploads/2014/08/data-viz-us-pop-migration.jpg"><img class="size-full wp-image-107" src="http://tech.popdata.org/wp-content/uploads/2014/08/data-viz-us-pop-migration.jpg" alt="Source: New York Times, The Upshot" width="800" height="381" /></a> Source: New York Times, The Upshot
+<a href="/images/from_wp/data-viz-us-pop-migration.jpg"><img class="size-full wp-image-107" src="/images/from_wp/data-viz-us-pop-migration.jpg" alt="Source: New York Times, The Upshot" width="800" height="381" /></a> Source: New York Times, The Upshot
 
 The folks at the NYT's Upshot recently did a piece charting how Americans have moved between states since 1900. The charts in <a title="Where We Came From and Where We Went, State by State" href="http://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html" target="_blank">Where We Came From and Where We Went, State by State</a> were compiled using Census microdata obtained from <a style="color: #326891;" href="http://www.ipums.org/">ipums.org</a>, the MPC's longest running data project. The microdata are records containing the characteristics of individuals compiled from a representative sample of Census forms. The individual, anonymized records are provided by the Census Bureau so researchers can explore the data beyond the published summary tables.
 

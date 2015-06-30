@@ -122,38 +122,15 @@ Case #2 also exposes some interesting false positives, such as the ones I discus
 
 Case #3 is the most interesting - strings that don't sound the same but are close in distance.  To wit:
 
-[table width ="30%" style ="" responsive ="false"]
-[table_head]
-[th_column]String 1[/th_column]
-[th_column]String 2[/th_column]
-[/table_head]
-[table_body]
-[table_row]
-|Olivier Deschenes|
-|Oliver Deschenes|
-[/table_row]
-[table_row]
-|Roberto Hernandez|
-|Roberto Fernandez|
-[/table_row]
-[table_row]
-|Martin Fieder|
-|Martin Fielder|
-[/table_row]
-[table_row]
-|Edward Levine|
-|Edward Lewine|
-[/table_row]
-[table_row]
-|Keisuke Okada|
-|Eisuke Okada|
-[/table_row]
-[table_row]
-|Ying Fang|
-|Ying Yang|
-[/table_row]
-[/table_body]
-[/table]
+|String 1|String 2|
+|-
+|Olivier Deschenes|Oliver Deschenes|
+|Roberto Hernandez|Roberto Fernandez|
+|Martin Fieder|Martin Fielder|
+|Edward Levine|Edward Lewine|
+|Keisuke Okada|Eisuke Okada|
+|Ying Fang|Ying Yang|
+
 
 These name pairs all fail to match phonetically but have a distance score of 1.  This is the most difficult bunch to sort out automatically - even after human inspection there are several cases that probably need further investigation.  As distance scores increase, the likelihood of a true match falls off precipitously.  In fact, in my testing I determined it was only worth looking at name pairs in this category with a distance of 1 or 2.  So, to reflect this in my confidence score for case #3:
 
@@ -182,7 +159,7 @@ This change had the desired effect.  Comparisons like Melissa Moreno <=> Melissa
 
 ## Wrapping Up
 
-<a href="http://tech.popdata.org/wp-content/uploads/2014/09/haster.jpg"><img class="size-medium wp-image-227 alignright" src="http://tech.popdata.org/wp-content/uploads/2014/09/haster-300x217.jpg" alt="hamster" width="300" height="217" /></a>
+<a href="/images/from_wp/haster.jpg"><img class="size-medium wp-image-227 alignright" src="/images/from_wp/haster-300x217.jpg" alt="hamster" width="300" height="217" /></a>
 
 At this point, I was happy with my algorithm soup.  I ran the process over the entire set of over 100k users and 10k citations and by the end of the day I had forwarded a list of potential matches and their confidence scores to our user support team for verification.  Preliminary indications are that we should be able to make links for at least 50% of our citations.  Not bad for a day's work!
 

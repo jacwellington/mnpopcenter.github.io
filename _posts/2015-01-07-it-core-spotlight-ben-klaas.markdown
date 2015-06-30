@@ -14,7 +14,7 @@ categories:
 tags: []
 comments: []
 ---
-<strong>Role:</strong> Data Delivery<strong><a href="http://tech.popdata.org/wp-content/uploads/2015/01/ben-tacotuesday.jpg"><img class=" size-medium wp-image-417 alignright" src="http://tech.popdata.org/wp-content/uploads/2015/01/ben-tacotuesday-300x223.jpg" alt="ben-tacotuesday" width="300" height="223" /></a></strong>
+<strong>Role:</strong> Data Delivery<strong><a href="/images/from_wp/ben-tacotuesday.jpg"><img class=" size-medium wp-image-417 alignright" src="/images/from_wp/ben-tacotuesday-300x223.jpg" alt="ben-tacotuesday" width="300" height="223" /></a></strong>
 <strong>Product:</strong> I get to work on many MPC products, but primarily on integrated microdata ones (IPUMS). My role is to work closely with researchers here to help them have the tools they need to process population data and metadata.
 <strong>Favorite Dev Tool:</strong> I love dev tools, so I can't pick just one: The Command Line, Linux, Vim, iPython Notebook, Perl, Terminator, Firebug. Considering how much I listen to music while coding, I might also list Spotify.
 <strong>Fun Fact?:</strong> Speaking of music, I've been tracking what I listen to. For 12 years.  <a title="Last.fm" href="http://www.last.fm/user/bklaas" target="_blank">114,000 songs and counting.</a>
