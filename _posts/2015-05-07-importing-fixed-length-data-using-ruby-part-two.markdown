@@ -23,6 +23,16 @@ Last time, I discussed the Fixed Length Record (FLR) format and showed how to us
 
 One could simply write code such as the following to import small numbers of records into a database:
 
+```ruby
+flr_file.each_record do |record|
+  customer = Customer.new
+  customer.name = record.name
+  customer.street = record.street
+  customer.zip = record.zip
+  customer.save
+end
+```
+
 {% highlight ruby %}
 flr_file.each_record do |record|
   customer = Customer.new
