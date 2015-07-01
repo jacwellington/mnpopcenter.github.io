@@ -87,7 +87,7 @@ There are two basic workflow approaches for authoring blog posts, each with its 
 
 * Pros: Everything can be done from the web.
 * Cons: No way to preview the post.
-* Best for: Very simple posts. Posts written externally that you just want to cut and paste in.  Fixes to existing posts. 
+* Best for: Very simple posts. Posts written externally that you just want to cut and paste. Fixes to existing posts. 
 
 1. Open a browser to this repository.
 1. Navigate into the _posts directory.
