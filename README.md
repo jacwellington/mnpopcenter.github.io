@@ -1,6 +1,6 @@
 # The MPC IT Blog
 
-This is the MPC IT Blog repository.  This blog is managed using the Jekyll blogging platform and is published as a GitHub Pages site.  Github Pages is a web site creation tool that is integrated into Github.  It simply uses Jekyll under the hood to automatically rebuild a web site any time changes are committed to the master branch of a specially-named repository.  
+This is the MPC IT Blog repository.  This blog is managed using the Jekyll blogging platform and is published as a GitHub Pages site.  Github Pages is a web site creation tool that is integrated into Github.  It simply uses Jekyll under the hood to automatically rebuild a web site any time changes are committed to the master branch of a specially-named repository.  The site is available at <https://github.umn.edu/pages/mpc/> (this will be aliased to tech.popdata.org if we go live with this approach). 
 
 The advantage to this approach over other blogging platforms (e.g. Wordpress) is that the resulting site is purely static - there is no PHP or database to worry about.  And since it's hosted at Github, there is no web hosting service to worry about, either.  It also allows the publishing pathway to be based on git, which is already familiar to MPC IT staff.
 
