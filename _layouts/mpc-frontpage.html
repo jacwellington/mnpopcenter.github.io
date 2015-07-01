@@ -20,8 +20,17 @@ format: blog-index
     <div class="row t30">
         <div class="medium-8 columns">
             {% for post in site.posts limit:3 %}
-            {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
+            
+            <p class="subheadline"><span class="subheader">{% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</span>  {% if post.subheadline %}{{ post.subheadline }}{% endif %}</p>
+            
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <p>
+			{% if post.author %}
+            {% assign author = site.data.authors[post.author] %}
+			<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="pr20">by <a href="{{ author.url }}" target="_blank">{{ author.name }}</a> &middot; {{ post.date | date: "%B %-d, %Y"}}</span>
+			</span>
+			{% endif %}
+            </p>
             <p>
                 {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}<br />
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
@@ -41,6 +50,7 @@ format: blog-index
                 <p><a class="button tiny radius" href="{% if page.widget-1.url contains 'http' %}{{ page.widget-1.url }}{% else %}{{ site.baseurl }}/{{ page.widget-1.url }}{% endif %}">Visit MPC&#39;s Website ›</a></p>
         </div><!-- /.medium-4.columns -->
             {% endif %}
+            
     </div><!-- /.row -->
 {% endunless %}
 
