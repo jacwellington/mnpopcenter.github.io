@@ -81,7 +81,7 @@ body.video cite { color: #fff; }
     height: 175px;
 }
 #masthead-no-image-header #logo img {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 /* Masthead › small-only
@@ -139,10 +139,10 @@ body.video cite { color: #fff; }
 
 @media #{$large-only} {
     #logo img {
-        margin-top: 80px;
+        margin-top: 65px;
     }
     #masthead {
-        height: 310px;
+        height: 250px;
     }
     #masthead-with-pattern {
         padding: 30px 0;
