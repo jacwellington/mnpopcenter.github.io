@@ -23,7 +23,7 @@ tags:
 comments: []
 ---
 
-I visited the doctor recently<sup id="fnref-705-1"><a href="#fn-705-1" rel="footnote">1</a></sup> and on the paperwork they gave me when I left was an authorization code to register with their online medical records system. I visited the page to sign up and the address bar was distressingly decorated. <img src="/images/from_wp/crop-insecure.png" alt="HTTPS in strikethrough with a red X over a lock" title="Affirmatively insecure" />
+I visited the doctor recently<sup id="fnref-705-1"><a href="#fn-705-1" rel="footnote">1</a></sup> and on the paperwork they gave me when I left was an authorization code to register with their online medical records system. I visited the page to sign up and the address bar was distressingly decorated. ![Affirmatively Insecure]({{ site.url }}/images/from_wp/crop-insecure.png).
 
 If I were using an older version of Chrome, it wouldn't look this scary. But I'm not, so it is. <a href="http://googleonlinesecurity.blogspot.com/2014/09/gradually-sunsetting-sha-1.html">Starting with version 42</a>, websites using certificates that both expire on or after 2017 and use SHA-1 for signatures are considered "affirmatively insecure" and rendered like the preceding image. Chrome considers SHA-1 certs that expire before 2017 as "secure, but with minor errors". It renders it like so. <img src="/images/from_wp/crop-minor-errors.png" alt="Lock with yellow triangle" title="Secure, but with minor errors" />
 
