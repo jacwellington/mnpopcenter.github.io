@@ -93,7 +93,7 @@ There are two basic workflow approaches for authoring blog posts, each with its 
 1. Navigate into the _posts directory.
 1. Click the + icon to create a new file in the _posts directory. Use the naming scheme "YYYY-MM-DD-title-of-my-post.markdown" for your new file.
 1. Create your post. Follow the directions for [Creating Blog Post Content](#content_reqs) below.
-1. When done, create a new branch for this change and submit a pull request.
+1. When done, create a new branch with a descriptive name and submit a pull request.
 
 ####  Method 2: Locally by Cloning the Repo and Running Jekyll Locally
 
@@ -104,7 +104,7 @@ There are two basic workflow approaches for authoring blog posts, each with its 
 _Note: If you don't have Jekyll installed, please see [Instructions for Installing and Running Jekyll Locally](#install) first._
 
 1. Clone the master branch of this repository locally on your machine.
-1. Create a new branch.
+1. Create a new branch with a descriptive name like "fran-hiring-process-post".
 1. Navigate into the _posts directory.
 1. Create a new file in the _posts directory. Use the naming scheme "YYYY-MM-DD-title-of-my-post.markdown" for your new file.
 1. Create your post. Follow the directions for [Creating Blog Post Content](#content_reqs) below.
