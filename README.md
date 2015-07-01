@@ -85,6 +85,8 @@ There are two basic workflow approaches for authoring blog posts, each with its 
 
 #### Method 1: Online via the Github Web Interface
 
+**One thing I'm not sure about is Github permissions and branching vs. forking.  Since I'm a Github owner, it's hard for me to simulate this as a non-owner.  Someone please test this with branching and forking and see what works.**
+
 * Pros: Everything can be done from the web.
 * Cons: No way to preview the post.
 * Best for: Very simple posts. Posts written externally that you just want to cut and paste. Fixes to existing posts. 
@@ -93,9 +95,11 @@ There are two basic workflow approaches for authoring blog posts, each with its 
 1. Navigate into the _posts directory.
 1. Click the + icon to create a new file in the _posts directory. Use the naming scheme "YYYY-MM-DD-title-of-my-post.markdown" for your new file.
 1. Create your post. Follow the directions for [Creating Blog Post Content](#content_reqs) below.
-1. When done, create a new branch with a descriptive name and submit a pull request.
+1. When done, submit a pull request back to the main repo.
 
 ####  Method 2: Locally by Cloning the Repo and Running Jekyll Locally
+
+**One thing I'm not sure about is Github permissions and branching vs. forking.  Since I'm a Github owner, it's hard for me to simulate this as a non-owner.  Someone please test this with branching and forking and see what works.**
 
 * Pros: Edit on local machine with your preferred tools.  Ability to preview locally (with Jekyll properly installed locally).
 * Cons: Additional one-time setup required. Still have to go to Github to create pull request.
