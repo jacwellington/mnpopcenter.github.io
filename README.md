@@ -10,13 +10,61 @@ The blog is managed like any other git/Github repository.  Blog editors manage t
 
 ### <a name="content_reqs">Creating Blog Post Content</a>
 
-For this site we have standardized on markdown as our input format.  Specifically, [Kramdown markdown](http://kramdown.gettalong.org/syntax.html).
+Jekyll posts are just text files.  For this site we have standardized on markdown as our input format.  Specifically, [Kramdown markdown](http://kramdown.gettalong.org/syntax.html).
 
 Write your content in the editor of your choice using Kramdown markdown syntax.
 
 #### Jekyll front-matter
 
+All Jekyll blog posts need to start with a YAML section called the "front matter".  This is the metadata for your post.  Front matter is delineated by three dashes "---".  Here is an example block of front matter:
+
+~~~
+---
+title: 'Our IT Hiring Process: How and Why'
+teaser: 'An overview of our IT hiring process and why we designed it this way.' 
+author: fran
+categories:
+- Team
+tags:
+- hiring
+- staff
+---
+~~~
+
+Most front matter variables have site-wide defaults, so you don't need to worry about setting them in each post.  The minimum set of front matter fields you should include in each post are title, author and categories.  A teaser is strongly encouraged, and tags are optional but also encouraged.  There are other variables which can be used to change the layout of a post or otherwise alter behavior, but the site editors would generally add these if needed.  
+
+For the `categories` variable, the set of allowable values is XXX coming soon XXX.
+
 #### Including Code in Your Posts
+
+Jekyll uses Pygments to provide syntax-highlighted code blocks in posts.  To use Pygments, use the Liquid tags `{% highlight _lang_ %}` and `{% endhighlight %}`.  For example:
+
+~~~
+{% highlight ruby %}
+flr_file.each_record do |record|
+  customer = Customer.new
+  customer.name = record.name
+  customer.street = record.street
+  customer.zip = record.zip
+  customer.save
+end
+{% endhighlight %}
+~~~
+
+will produce
+
+{% highlight ruby %}
+flr_file.each_record do |record|
+  customer = Customer.new
+  customer.name = record.name
+  customer.street = record.street
+  customer.zip = record.zip
+  customer.save
+end
+{% endhighlight %}
+
+
+#### Including Images in Your Posts
 
 ### Authoring Workflow 
 

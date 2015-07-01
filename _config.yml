@@ -90,6 +90,7 @@ defaults:
       path: ""        
       type: "posts"
     values:
+      layout: page
       show_meta: true   # Show metadata beneath all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
