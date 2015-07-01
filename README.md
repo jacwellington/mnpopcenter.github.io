@@ -10,11 +10,13 @@ The blog is managed like any other git/Github repository.  Blog editors manage t
 
 ### <a name="content_reqs">Creating Blog Post Content</a>
 
-Jekyll posts are just text files.  For this site we have standardized on markdown as our input format.  Specifically, [Kramdown markdown](http://kramdown.gettalong.org/syntax.html).
+Jekyll posts are mostly just text files.  You can write your content in the editor of your choice.
 
-Write your content in the editor of your choice using Kramdown markdown syntax.
+By incorporating special syntax into your posts, you have access to a good deal of Jekyll functionality.  Each blog post file should start with front matter (described in the next section).  That signals Jekyll to run this file gets run through the Jekyll engine, which means that at site generation time, the file gets processed by an input converter (e.g. Markdown -> HTML or Textile -> HTML) and also by the template engine, which is called Liquid.  Liquid tags allow you to do things like invoke the syntax highlighting code block feature or retrieve the site URL value.
 
-#### Jekyll front-matter
+For this site we have standardized on markdown as our input format.  Specifically, [Kramdown markdown](http://kramdown.gettalong.org/syntax.html).
+
+#### Blog Post Metadata - Jekyll front-matter
 
 All Jekyll blog posts need to start with a YAML section called the "front matter".  This is the metadata for your post.  Front matter is delineated by three dashes "---".  Here is an example block of front matter:
 
@@ -35,9 +37,13 @@ Most front matter variables have site-wide defaults, so you don't need to worry 
 
 For the `categories` variable, the set of allowable values is XXX coming soon XXX.
 
+#### Blog Post Content - Kramdown Markdown
+
+After the end of the front matter, the rest of the file contains your blog post content.  Use [Kramdown markdown](http://kramdown.gettalong.org/syntax.html) syntax to write your post.  Most, but not all, of the Kramdown functionality will work on Github Pages (this is mostly relevant for code blocks, read below on how to do this correctly).  All the usual stuff works, such as lists, headers, links, inline images, tables, and so on.
+
 #### Including Code in Your Posts
 
-Jekyll uses Pygments to provide syntax-highlighted code blocks in posts.  To use Pygments, use the Liquid tags `{% highlight _lang_ %}` and `{% endhighlight %}`.  For example:
+Jekyll on GitHub Pages uses Pygments to provide syntax-highlighted code blocks in posts.  To use Pygments, use the tags `{% highlight _lang_ %}` and `{% endhighlight %}` to surround your code.  For example:
 
 ~~~
 {% highlight ruby %}
@@ -51,20 +57,22 @@ end
 {% endhighlight %}
 ~~~
 
-will produce
+Pygments offers hundreds of languages.  Some useful ones for us are ruby, python, python3, perl, sql, bash, java, css, yaml, c, c++, js, json, html and text.
 
-{% highlight ruby %}
-flr_file.each_record do |record|
-  customer = Customer.new
-  customer.name = record.name
-  customer.street = record.street
-  customer.zip = record.zip
-  customer.save
-end
-{% endhighlight %}
+Do not try to use other flavors of markdown fenced code blocks (e.g. "~~~" or "```").  They will not work in the Jekyll/GitHub Pages ecosystem.
 
+To create inline code snippets, use the backtick.  For example:
 
+~~~
+At the shell, type `gem install hflr` to install the hierarchical fixed length records gem.
+~~~
+
+`gem install hflr`
 #### Including Images in Your Posts
+
+If you want to include images in your posts, add them to the images directory in the repository.  Then, to reference them in your post, use this combination of markdown syntax and Liquid tag:
+
+`![Image Alt Text]({{ site.url }}/images/filename.png)`
 
 ### Authoring Workflow 
 
@@ -72,7 +80,7 @@ There are two basic workflow approaches for authoring a blog post.
 
 #### Method 1: Online via the Github Web Interface
 
-The advantage of this method is that everything can be done on the Github web site.  The disadvantage of this method is that you have to create the pull request at the same time you create the file, which is awkward if you want to make some editing passes on your post before you submit it for consideration.  One workaround is that you could write the post externally and cut and paste it when finished.  
+The advantage of this method is that everything can be done on the Github web site.  The disadvantage of this method is that you cannot preview your post in its final, rendered format.
 
 1. Open a browser to this repository.
 1. Navigate into the _posts directory.
@@ -82,7 +90,7 @@ The advantage of this method is that everything can be done on the Github web si
 
 ####  Method 2: Locally via a Clone of the Repository
 
-The advantage of this method is that you can author from the command line and when offline.  The disadvantage to this method is that 
+The advantage of this method is that you can author from the command line and when offline and you can preview your post in a local web server (if you have Jekyll correctly installed locally).  The disadvantage to this method is that it requires additional setup on your part.
 
 1. Clone the master branch of this repository locally on your machine.
 1. Create a new branch.
@@ -92,7 +100,7 @@ The advantage of this method is that you can author from the command line and wh
 1. When done, add your new file, commit your changes, and push the branch to Github.
 1. Go to the Github web interface for the repository, and [create a pull request](https://help.github.com/articles/creating-a-pull-request/). 
 
-## Instructions for Blog Editors
+## Instructions for Installing Jekyll Locally
 
 ### How to Test the Site Locally
 
