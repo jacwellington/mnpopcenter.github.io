@@ -57,17 +57,22 @@ end
 {% endhighlight %}
 ~~~
 
+(I can't show you what this would produce on the blog because Github doesn't apply Jekyll to the page you're currently reading, so it doesn't recognize Liquid tags).
+
 Pygments offers hundreds of languages.  Some useful ones for us are ruby, python, python3, perl, sql, bash, java, css, yaml, c, c++, js, json, html and text.
 
-Do not try to use other flavors of markdown fenced code blocks (e.g. "~~~" or "```").  They will not work in the Jekyll/GitHub Pages ecosystem.
+_Warning: Do not try to use other flavors of markdown fenced code blocks (e.g. "~~~" or "```").  They will not work in the Jekyll/GitHub Pages ecosystem._
 
-To create inline code snippets, use the backtick.  For example:
+To create inline code snippets, use markdown code spans with the single backtick.  These _do_ work on GitHub Pages sites.  For example:
 
 ~~~
 At the shell, type `gem install hflr` to install the hierarchical fixed length records gem.
 ~~~
 
-`gem install hflr`
+produces
+
+At the shell, type `gem install hflr` to install the hierarchical fixed length records gem.
+
 #### Including Images in Your Posts
 
 If you want to include images in your posts, add them to the images directory in the repository.  Then, to reference them in your post, use this combination of markdown syntax and Liquid tag:
@@ -76,11 +81,13 @@ If you want to include images in your posts, add them to the images directory in
 
 ### Authoring Workflow 
 
-There are two basic workflow approaches for authoring a blog post.
+There are two basic workflow approaches for authoring blog posts, each with its own advantages.
 
 #### Method 1: Online via the Github Web Interface
 
-The advantage of this method is that everything can be done on the Github web site.  The disadvantage of this method is that you cannot preview your post in its final, rendered format.
+* Pros: Everything can be done from the web.
+* Cons: No way to preview the post.
+* Best for: Very simple posts. Posts written externally that you just want to cut and paste in.  Fixes to existing posts. 
 
 1. Open a browser to this repository.
 1. Navigate into the _posts directory.
@@ -88,19 +95,34 @@ The advantage of this method is that everything can be done on the Github web si
 1. Create your post. Follow the directions for [Creating Blog Post Content](#content_reqs) below.
 1. When done, create a new branch for this change and submit a pull request.
 
-####  Method 2: Locally via a Clone of the Repository
+####  Method 2: Locally by Cloning the Repo and Running Jekyll Locally
 
-The advantage of this method is that you can author from the command line and when offline and you can preview your post in a local web server (if you have Jekyll correctly installed locally).  The disadvantage to this method is that it requires additional setup on your part.
+* Pros: Edit on local machine with your preferred tools.  Ability to preview locally (with Jekyll properly installed locally).
+* Cons: Additional one-time setup required. Still have to go to Github to create pull request.
+* Best for: Authoring more complicated posts. Collaborative editing with others.  
+
+_Note: If you don't have Jekyll installed, please see [Instructions for Installing and Running Jekyll Locally](#install) first._
 
 1. Clone the master branch of this repository locally on your machine.
 1. Create a new branch.
 1. Navigate into the _posts directory.
 1. Create a new file in the _posts directory. Use the naming scheme "YYYY-MM-DD-title-of-my-post.markdown" for your new file.
 1. Create your post. Follow the directions for [Creating Blog Post Content](#content_reqs) below.
+1. Start your Jekyll server if you haven't already, and preview your work.
 1. When done, add your new file, commit your changes, and push the branch to Github.
 1. Go to the Github web interface for the repository, and [create a pull request](https://help.github.com/articles/creating-a-pull-request/). 
 
-## Instructions for Installing Jekyll Locally
+## <a name="install">Instructions for Installing and Running Jekyll Locally</a>
 
-### How to Test the Site Locally
+1. Clone the repository to your local machine.
+1. (Optional) Create a new gemset in your Ruby environment.
+1. From the root of the repository, run `bundle install`.
 
+Now you have Jekyll and its dependencies installed.  To start the Jekyll server:
+
+1. Run the command `jekyll serve --config _config.yml,_config_dev.yml`
+1. The site should be viewable at http://localhost:4000
+
+Note that Jekyll will report that it started on http://0.0.0.0:4000/, but at least on my system the server is not reachable at this address, you have to use http://localhost:4000/.  
+
+You can keep the server running, and it will automatically detect changes to files in the repository and rebuild the site accordingly.  At this point you can iterate over your blog post authoring using Method 2 above, and preview the site locally as you go.
