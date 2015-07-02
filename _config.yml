@@ -21,12 +21,12 @@ description: "The team and tech behind the world's largest demographic databases
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "https://tech.popdata.org"
+url: "http://tech.popdata.org"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/mnpopcenter.github.io/edit/gh-pages
+improve_content: https://github.com/mnpopcenter/mnpopcenter.github.io/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash.
