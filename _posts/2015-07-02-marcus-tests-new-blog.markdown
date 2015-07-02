@@ -2,6 +2,7 @@
 title: 'Marcus Tests the New Blogging Platform'
 teaser: 'Marcus is stuck between a rock and another rock. Will the new blogging platform save him?' 
 author: marcus
+teaser: This post will be awesome, read it!
 categories:
 - Team
 tags:
