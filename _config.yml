@@ -34,7 +34,7 @@ improve_content: https://github.umn.edu/mpc.github.umn.edu/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-urlimg: "http://github.umn.edu/pages/mpc/images/"
+urlimg: "http://github.umn.edu/pages/mpc/images"
 
 # Logo size is 600x80 pixels
 # Fran says logo isn't quite that size, actually...
