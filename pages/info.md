@@ -1,61 +1,18 @@
 ---
 layout: page
-title: "About"
-subheadline: "Why another Jekyll Theme?"
-teaser: "Since years I am programming and designing websites. I love to work with open source tools and learn via code from others. This time I want to try to give something back..."
+title: "About this Blog"
+show_meta: false
 permalink: "/info/"
-header:
-    image_fullwidth: "header_drop.jpg"
 ---
-...and learn at the same time.
 
-*Feeling Responsive* is my first theme which I let into the world. It's built on work and knowledge of others. While I am still designing it, you read about whats behind this theme in the – *hopefully* – near future.
+The MPC is fairly unique as population centers go.  There are very few other centers that are doing social science data integration and dissemination on the scale of the MPC.  In fact, we're sort of certain that there are _no_ other centers at this scale, but we don't want to presume.  
 
+With that unique scale comes some pretty unique IT requirements, at least within the social sciences.  This affects everything from staffing to technology platforms.  There are probably not a lot of other pop centers that need a full-time HPC developer or UX Designer on staff, for example, or which have to juggle 5 _billion_ person records.
 
-## Features
+So, at the MPC IT Core we have a staff of 24 folks working on some pretty leading edge social science IT.  And we'd like to share what we're doing with our community and engage with others out there who are moving into this space with us.  We're sure we have a lot to learn from others out there, and we hope that we have something to contribute back to all of you who are also working in social science IT.  
 
-* [Responsive Gallery][8], [Videos][9], [Grid][10], [Typography][11],...
-* 100% GitHub Pages friendly
-* Easy editable navigation, footer and social media links
-* Language Ready – just translate one file.
-* Lots of possibilities to customize it to your needs
-* Lots of different headers
-* Various post formats to let your content shine
-* Uses Jekyll 3.0
-* Multiple possibilities to use images in different ways
-* Fine typography
-* Play Video and Audio with [Mediaelement.js][12]
+We also hope we have something to offer to the wider IT community.  While we'll never have "big data" volumes to equal the astrophysics or genomics communities, we do have incredibly complex, dirty data structures.  We have to deal with data that was written down by a human 220 years ago!  And we have some records with more than 3,000 fields of mixed datatypes.  These characteristics bring their own challenges that make us envy the uniformity and simplicity of DNA sequences or telescope imagery.  Hopefully this blog will show other IT folks out there that there is interesting and challenging work to be done here if you're looking for a new opportunity.  
+  
+Finally, writing is a great way to cement knowledge.  By communicating ideas to others in written form, you also strengthen your own knowledge of the topic.  We view this blog as a small part of our own learning and career development, and hope that the team will enjoy having this creative outlet for sharing and discussion ideas about the things they are working on.
 
-
-
-## I got inspired by...
-
-[Michael Rose][1] and his fabulous [themes for jekyll][2]. Authors of [A List Apart][4] and [Smashing Magazine][5] since 2002. [GitHub][6] and how they built such a habitat for cooperation worldwide. [Automattic][3] and how they built a fantastic community around WordPress. And many, many more...
-
-Please make *Feeling Responsive* yours and if you like it, please link back to my homebase <a href="http://phlow.de/">Phlow</a>. That would be awesome.
-
-#### Since then, fork it!
-
-Yours sincerelly, [Moritz »mo.« Sauer][7]
-
-
- [1]: http://mademistakes.com/about/
- [2]: http://mademistakes.com/work/jekyll-themes/
- [3]: http://automattic.com/
- [4]: http://alistapart.com/
- [5]: http://www.smashingmagazine.com/
- [6]: https://github.com/
- [7]: http://sauer.io
- [8]: {{ site.url }}/design/gallery/
- [9]: {{ site.url }}/design/video/
- [10]: {{ site.url }}/design/grid/
- [11]: {{ site.url }}/design/typography/
- [12]: {{ site.url }}/design/mediaelement_js/
- [13]: #
- [14]: #
- [15]: #
- [16]: #
- [17]: #
- [18]: #
- [19]: #
- [20]: #
+So, with that, we invite you to enjoy the MPC IT Blog.  We hope you find something interesting or useful to your work within this site, and that you stick around and enrich the conversation with your own ideas.  Thanks for visiting! 
