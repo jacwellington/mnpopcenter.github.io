@@ -21,12 +21,12 @@ description: "The team and tech behind the world's largest demographic databases
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "https://github.umn.edu/pages/mpc/"
+url: "https://github.umn.edu/pages/mpc"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/mnpopcenter/mnpopcenter.github.io/edit/gh-pages
+improve_content: https://github.umn.edu/mpc.github.umn.edu/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash.
@@ -34,7 +34,7 @@ improve_content: https://github.com/mnpopcenter/mnpopcenter.github.io/edit/gh-pa
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-urlimg: "http://mnpopcenter.github.io/images/"
+urlimg: "http://github.umn.edu/pages/mpc/images/"
 
 # Logo size is 600x80 pixels
 # Fran says logo isn't quite that size, actually...
