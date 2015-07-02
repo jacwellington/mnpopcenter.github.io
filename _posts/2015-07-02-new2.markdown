@@ -1,1 +1,7 @@
-jhjhdjhd
+---
+author: marcus
+title: Another new one
+teaser: Just teasing
+---
+
+What's up?  Another new post.
