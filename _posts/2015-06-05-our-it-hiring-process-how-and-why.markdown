@@ -21,7 +21,7 @@ I remember looking online a couple of years ago for inspiration from other organ
 
 Before I go any further, I should note that the vast majority of our positions in the IT core are for software development. As a result, this process is designed primarily to assess software developer candidates (although our process for assessing system administrators and other positions is quite similar). I should also note that what I describe here is a snapshot in time of a process which is constantly evolving. There's no guarantee that this will still be our exact approach to hiring in the future!
 
-###The MPC IT Search and Hiring Process
+### The MPC IT Search and Hiring Process
 
 First, the "how".
 
@@ -35,7 +35,7 @@ Each of our searches is run by a search committee, which consists of one Search 
 
 Although it can vary significantly, the process from receiving an application to completing an onsite interview takes about 3-5 weeks.
 
-###Why Do We Do It This Way?
+### Why Do We Do It This Way?
 
 Now, the "why".
 
@@ -59,7 +59,7 @@ What our process ensures is that by the time we've reached the onsite, we've alr
 
 At the end of an onsite, we feel like we have built a substantial relationship with the candidate and that we deeply understand their capabilities and interests, and candidates tell us that they feel like they have a really good handle on what the MPC is about and that they have a clear understanding of the role. Certainly it has been our experience that since we've started using this process for hiring, it's typically been quite apparent when we've achieved "great fit" for both parties.
 
-###It's Not For Everyone, and We Know That
+### It's Not For Everyone, and We Know That
 
 We hear a fair amount of feedback from candidates and others about our process, most commonly about the at-home and onsite phases.
 
