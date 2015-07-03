@@ -1,6 +1,6 @@
 # The MPC IT Blog
 
-This is the MPC IT Blog repository.  This blog is managed using the Jekyll blogging platform and is published as a GitHub Pages site.  Github Pages is a web site creation tool that is integrated into Github.  It simply uses Jekyll under the hood to automatically rebuild a web site any time changes are committed to the master branch of a specially-named repository.  The site is available at <https://github.umn.edu/pages/mpc/> (this will be aliased to tech.popdata.org if we go live with this approach). 
+This is the MPC IT Blog repository.  This blog is managed using the Jekyll blogging platform and is published as a GitHub Pages site.  Github Pages is a web site creation tool that is integrated into Github.  It simply uses Jekyll under the hood to automatically rebuild a web site any time changes are committed to the master branch of a specially-named repository.  The site is available at <http://tech.popdata.org/>.
 
 The advantage to this approach over other blogging platforms (e.g. Wordpress) is that the resulting site is purely static - there is no PHP or database to worry about.  And since it's hosted at Github, there is no web hosting service to worry about, either.  It also allows the publishing pathway to be based on git, which is already familiar to MPC IT staff.
 
@@ -91,10 +91,15 @@ There are two basic workflow approaches for authoring blog posts, each with its 
 * Cons: No way to preview the post.
 * Best for: Very simple posts. Posts written externally that you just want to cut and paste. Fixes to existing posts. 
 
-1. Open a browser to this repository.
-1. Navigate into the _posts directory.
+1. If you don't already have a fork of the repository:
+  1. Open a browser to the repository: <http://github.com/mnpopcenter/mnpopcenter.github.io>.
+  1. Fork the repository.
+1. If you already have a fork of the repository:
+  1. Navigate to your fork.
+  1. Update your fork (how to do this from web?)
+1. Navigate into the _posts directory of your fork.
 1. Click the + icon to create a new file in the _posts directory. Use the naming scheme "YYYY-MM-DD-title-of-my-post.markdown" for your new file.
-1. Create your post. Follow the directions for [Creating Blog Post Content](#content_reqs) below.
+1. Create your post. Follow the directions for [Creating Blog Post Content](#content_reqs).
 1. When done, submit a pull request back to the main repo.
 
 ####  Method 2: Locally by Cloning the Repo and Running Jekyll Locally
@@ -107,6 +112,8 @@ There are two basic workflow approaches for authoring blog posts, each with its 
 
 _Note: If you don't have Jekyll installed, please see [Instructions for Installing and Running Jekyll Locally](#install) first._
 
+**This probably needs to be updated for fork strategy**
+
 1. Clone the master branch of this repository locally on your machine.
 1. Create a new branch with a descriptive name like "fran-hiring-process-post".
 1. Navigate into the _posts directory.
@@ -118,7 +125,7 @@ _Note: If you don't have Jekyll installed, please see [Instructions for Installi
 
 ## <a name="install">Instructions for Installing and Running Jekyll Locally</a>
 
-1. Clone the repository to your local machine.
+1. Clone your forked repository to your local machine.
 1. (Optional) Create a new gemset in your Ruby environment.
 1. From the root of the repository, run `bundle install`.
 
