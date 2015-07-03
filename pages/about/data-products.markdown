@@ -32,7 +32,7 @@ Tabular U.S. census data and GIS boundary files from 1790 to the present.
 ### <a href="http://www.ihis.us/">Integrated Health Interview Series</a><a href="/images/from_wp/logoIHIS.png"><img class="size-full wp-image-153 alignright" src="/images/from_wp/logoIHIS.png" alt="logoIHIS" width="105" height="65" /></a>
 Annual harmonized data on people in the U.S. National Health Interview Survey from the 1960s to the present.
 
-###<a href="http://www.atusdata.org/">American Time Use Survey-X</a><a href="/images/from_wp/logoATUS.png"><img class="size-full wp-image-152 alignright" src="/images/from_wp/logoATUS.png" alt="logoATUS" width="105" height="64" /></a>
+### <a href="http://www.atusdata.org/">American Time Use Survey-X</a><a href="/images/from_wp/logoATUS.png"><img class="size-full wp-image-152 alignright" src="/images/from_wp/logoATUS.png" alt="logoATUS" width="105" height="64" /></a>
 Annual harmonized data from 2003 forward on how U.S. adults divide their time among activities.
 
 ### <a href="http://www.idhsdata.org/">Integrated Demographic and Health Series</a><a href="/images/from_wp/logoIDHS.png"><img class="size-full wp-image-151 alignright" src="/images/from_wp/logoIDHS.png" alt="logoIDHS" width="105" height="62" /></a>
