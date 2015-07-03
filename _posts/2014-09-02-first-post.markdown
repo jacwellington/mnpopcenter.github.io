@@ -12,6 +12,7 @@ categories:
 tags: []
 comments: []
 ---
+[You may also be interested in reading [About This Blog]({{site.url}}/info/), a newer version of this topic.]
 
 We're thrilled to be launching our first-ever MPC IT blog, and we're glad you're here.  We want to use this blog to engage with the communities around us: the University of Minnesota campus IT community, the Twin Cities software development community, and the worldwide community of IT professionals doing the same kind of work that we do, particularly those working in support of the social sciences.
 

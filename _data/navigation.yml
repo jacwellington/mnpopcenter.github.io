@@ -6,8 +6,8 @@
   url: "/blog/"
   side: left
   dropdown:
-  - title: Blog
-    url: "/blog/"
+  - title: "About This Blog"
+  - url: "/info/"
   - title: "Blog Archive"
     url: "/blog/archive/"
 
