@@ -8,6 +8,37 @@ The blog is managed like any other git/Github repository.  Blog editors manage t
 
 ## Instructions for Blog Authors
 
+### TL;DR
+
+1. Fork this repo.
+2. Clone your fork locally.
+3. Create a file in the _posts directory called YYYY-MM-DD-this-is-my-title.markdown
+4. Start the file with this block of yaml delimited by "---", called "Jekyll front matter":
+
+    ```
+    ---
+    author: <your x500 here>
+    title: This is the Title of My Post
+    teaser: This is a short teaser about my post.  I'm going to talk about cool things!
+    categories:
+    - IPUMS
+    - Data Processing
+    tags:
+    - Ruby
+    - CSV
+    ---
+    ```
+    Categories and tags are optional and can be omitted.
+5. Add your markdown-formatted blog content below the front matter.
+6. (First time only) Run `bundle install`
+7. Run `jekyll serve --config _config.yml,_configdev.yml`
+8. Open http://localhost:4000/ (or whatever URL Jekyll used) and check your work.
+9. Iterate.  The local server will reflect changes automatically.
+10. When done, `git add . && git commit -a && git push`
+11. Submit a pull request back to this repo.
+
+You really ought to read the rest of these instructions, though.
+
 ### <a name="content_reqs">Creating Blog Post Content</a>
 
 Jekyll posts are mostly just text files.  You can write your content in the editor of your choice.
