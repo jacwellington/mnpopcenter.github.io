@@ -14,29 +14,29 @@ comments: []
 permalink: /about/data-products/
 ---
 
-### <a href="http://international.ipums.org/international/">IPUMS-International</a><a href="/images/from_wp/logoIPUMSI.png"><img class="size-full wp-image-158 alignright" src="/images/from_wp/logoIPUMSI.png" alt="logoIPUMSI" width="105" height="52" /></a>
-Harmonized data for 1960 forward, covering 544 million people in 238 censuses from around the world.
-
-### <a href="http://usa.ipums.org/usa/">IPUMS-USA</a><a href="/images/from_wp/logoIPUMSUSA.png"><img class="size-full wp-image-157 alignright" src="/images/from_wp/logoIPUMSUSA.png" alt="logoIPUMSUSA" width="105" height="63" /></a>
+![IPUMS-USA]({{site.urlimg}}/from_wp/logoIPUMSUSA.png){:.imgleft} [IPUMS-USA](http://usa.ipums.org/usa/){:.font-size-h3 .l15}
 Harmonized data on people in the U.S. census and American Community Survey, from 1850 to the present.
 
-### <a href="http://cps.ipums.org/cps/">IPUMS-CPS</a><a href="/images/from_wp/logoIPUMSCPS.png"><img class="size-full wp-image-156 alignright" src="/images/from_wp/logoIPUMSCPS.png" alt="logoIPUMSCPS" width="105" height="65" /></a>
+![IPUMSI]({{site.urlimg}}/from_wp/logoIPUMSI.png)[IPUMS-International](http://international.ipums.org/international/){:.font-size-h3 .l15}
+Harmonized data for 1960 forward, covering 544 million people in 238 censuses from around the world.
+
+![IPUMS-CPS]({{site.urlimg}}/from_wp/logoIPUMSCPS.png)[IPUMS-CPS](http://cps.ipums.org/cps/){:.font-size-h3 .l15}
 Harmonized data on people in the Current Population Survey, every March from 1962 to the present.
 
-### <a href="http://www.nappdata.org/">North Atlantic Population Project</a><a href="/images/from_wp/logoNAPP.png"><img class="size-full wp-image-155 alignright" src="/images/from_wp/logoNAPP.png" alt="logoNAPP" width="105" height="75" /></a>
+![NAPP]({{site.urlimg}}/from_wp/logoNAPP.png)[North Atlantic Population Project](http://www.nappdata.org){:.font-size-h3 .l15}
 Complete-count data from 1800s censuses of Canada, Great Britain, Germany, Iceland, Norway, Sweden, and the U.S.
 
-### <a href="http://www.nhgis.org/">National Historical Geographic Information System</a><a href="/images/from_wp/logoNHGIS.png"><img class="size-full wp-image-154 alignright" src="/images/from_wp/logoNHGIS.png" alt="logoNHGIS" width="105" height="84" /></a>
+![NHGIS]({{site.urlimg}}/from_wp/logoNHGIS.png)[National Historical Geographic Information System](http://www.nhgis.org){:.font-size-h3 .l15}
 Tabular U.S. census data and GIS boundary files from 1790 to the present.
  
-### <a href="http://www.ihis.us/">Integrated Health Interview Series</a><a href="/images/from_wp/logoIHIS.png"><img class="size-full wp-image-153 alignright" src="/images/from_wp/logoIHIS.png" alt="logoIHIS" width="105" height="65" /></a>
+![IHIS]({{site.urlimg}}/from_wp/logoIHIS.png)[Integrated Health Interview Series](http://www.ihis.us){:.font-size-h3 .l15}
 Annual harmonized data on people in the U.S. National Health Interview Survey from the 1960s to the present.
 
-### <a href="http://www.atusdata.org/">American Time Use Survey-X</a><a href="/images/from_wp/logoATUS.png"><img class="size-full wp-image-152 alignright" src="/images/from_wp/logoATUS.png" alt="logoATUS" width="105" height="64" /></a>
+![ATUS]({{site.urlimg}}/from_wp/logoATUS.png)[American Time Use Survey-X](http://www.atusdata.org){:.font-size-h3 .l15}
 Annual harmonized data from 2003 forward on how U.S. adults divide their time among activities.
 
-### <a href="http://www.idhsdata.org/">Integrated Demographic and Health Series</a><a href="/images/from_wp/logoIDHS.png"><img class="size-full wp-image-151 alignright" src="/images/from_wp/logoIDHS.png" alt="logoIDHS" width="105" height="62" /></a>
+![IDHS]({{site.urlimg}}/from_wp/logoIDHS.png)[Integrated Demographic and Health Series](http://www.idhsdata.org){:.font-size-h3 .l15}
 Demographic and Health Surveys integrated for analysis across time and space, 1980s forward.
 
-### <a href="http://www.terrapop.org/">Terra Populus</a><a href="/images/from_wp/logoTerrapop.png"><img class="size-full wp-image-150 alignright" src="/images/from_wp/logoTerrapop.png" alt="logoTerrapop" width="105" height="38" /></a>
+![TerraPop]({{site.urlimg}}/from_wp/logoTerrapop.png)[Terra Populus](http://www.terrapop.org){:.font-size-h3 .l15}
 Integrated data on population and the environment, from 1960 to the present.
