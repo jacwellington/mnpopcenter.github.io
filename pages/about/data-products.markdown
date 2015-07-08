@@ -12,7 +12,7 @@ comments: []
 permalink: /about/data-products/
 ---
 
-![IPUMS-USA]({{site.urlimg}}/from_wp/logoIPUMSUSA.png){:.imgleft} [IPUMS-USA](http://usa.ipums.org/usa/){:.font-size-h3 .l15}
+![IPUMS-USA]({{site.urlimg}}/from_wp/logoIPUMSUSA.png)[IPUMS-USA](http://usa.ipums.org/usa/){:.font-size-h3 .l15}
 Harmonized data on people in the U.S. census and American Community Survey, from 1850 to the present.
 
 ![IPUMSI]({{site.urlimg}}/from_wp/logoIPUMSI.png)[IPUMS-International](http://international.ipums.org/international/){:.font-size-h3 .l15}
