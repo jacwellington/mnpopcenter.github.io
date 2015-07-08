@@ -4,8 +4,6 @@ status: publish
 published: true
 title: Data Products
 author: mpcit
-wordpress_id: 35
-wordpress_url: http://tech.popdata.org/?page_id=35
 date: '2014-07-28 22:50:38 -0500'
 date_gmt: '2014-07-28 22:50:38 -0500'
 categories: []

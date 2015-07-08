@@ -4,13 +4,10 @@ status: publish
 published: true
 title: About MPC IT
 author: mpcit
-wordpress_id: 50
-wordpress_url: http://tech.popdata.org/?page_id=50
 date: '2014-07-25 20:29:27 -0500'
 date_gmt: '2014-07-25 20:29:27 -0500'
 categories: []
 tags: []
-comments: []
 permalink: /about/about-mpc-it/
 ---
 
