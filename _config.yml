@@ -205,7 +205,3 @@ sass:
 # used in _includes/footer_scripts.html
 
 google_analytics_tracking_id: UA-1652612-19
-
-# support for ATOM feed
-gems:
-    - jekyll-feed
