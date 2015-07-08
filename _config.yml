@@ -206,3 +206,6 @@ sass:
 
 google_analytics_tracking_id: UA-1652612-19
 
+# support for ATOM feed
+gems:
+    - jekyll-feed
