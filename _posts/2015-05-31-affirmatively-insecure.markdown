@@ -80,7 +80,7 @@ I have a couple hundred domains to check, and assuming I have a file with one do
 cat domains.txt | xargs -P16 -L1 bin/shaaaaaaaaaaaaa > output.json 2> error.json
 ```
 
-will do what I need. The `-L1` limits xargs to one domain per invocations of shaaaaaaaaaaaaa, and `-P16` will run up to 16 instances of shaaaaaaaaaaaaa in parallel.
+will do what I need. The `-L1` limits xargs to one domain per invocation of shaaaaaaaaaaaaa, and `-P16` will run up to 16 instances of shaaaaaaaaaaaaa in parallel.
 Now I have a JSON document that says which domains use SHA-1 certs. I don't handle JSON all that often[^5], but I'd heard about <a href="http://stedolan.github.io/jq/">jq</a> and was able to install it with homebrew. On jq's homepage it reads "jq is like sed for JSON data". Because I'm a later generation Unix nerd, I first picked up Perl for data munging and never learned the difference between awk or sed, or how to use them. But the homepage also says that jq is a command line JSON processor that lets one filter and transform JSON.
 
 To get only the domain name and diagnosis, I could do
