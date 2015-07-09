@@ -1,6 +1,6 @@
-/* TOC – Typography
+/* TOC – Typography 
 
-Check typography variables › _3_typography_settings.scss
+Check typography variables › _3_typography_settings.scss
 
 - Links
 - Customize Foundation Typography
@@ -47,14 +47,11 @@ a:active {
 /* Customize Foundation Typography
 ------------------------------------------------------------------- */
 
-p {
+p { 
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    -ms-word-break: break-all;
-    /* Non standard for webkit */
-    word-break: break-word;
 }
 p a,
 article a {
@@ -235,35 +232,33 @@ blockquote {
     position: relative;
     border: none;
     margin: 0 30px 30px 30px;
-    color:  $grey-11;
+    color: #4b4b4d
 }
-
+ 
     blockquote p {font-style: italic; color: $grey-10; }
-
+ 
     blockquote:before {
         display:block;content:"\00BB";
         font-size:80px;
-        line-height: 0;
         position:absolute;
         left:-25px;
-        top: auto;
-        color: $grey-11;
+        top:-40px;
+        color:#4b4b4d
     }
     blockquote:after {
         display:block;
         content:"\00AB";
         font-size:80px;
-        line-height: 0;
         position:absolute;
         right:-10px;
-        bottom: 20px;
-        color: $grey-11;
+        bottom:-40px;
+        color:#4b4b4d;
     }
     blockquote cite:before {
         content:"\2014 \0020"
     }
     blockquote cite a,blockquote cite a:visited {
-        color: $grey-10;
+        color: #555
     }
 cite {
     padding-top: 5px;
@@ -329,25 +324,15 @@ mark {
 /* Footnotes
 ------------------------------------------------------------------- */
 
-.footnotes:before {
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 60px;
-    margin-top: -10px;
-    border-bottom: 1px solid $grey-2;
-}
 .footnotes {
     margin-top: 60px;
 }
-.footnotes ol {
+.footnotes ol { 
     font-size: $font-size-small;
 }
-.footnotes p {
-    font-size: inherit;
-    margin-bottom: 0;
+.footnotes ol * {
+    font-size: 1em;
 }
-
 
 
 
