@@ -1,0 +1,1 @@
+Marcus tests creating a new post through a manually created fork and local editing.
