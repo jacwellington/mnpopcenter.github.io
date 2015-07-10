@@ -7,7 +7,9 @@
 	<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/styles_feeling_responsive.css">
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml" />
 	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/modernizr.min.js"></script>	
-    
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7cVolkhov' rel='stylesheet' type='text/css'>
+<!--    
   <script>
     WebFontConfig = {
       google: { families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ] }
@@ -27,7 +29,7 @@
   <noscript>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7cVolkhov' rel='stylesheet' type='text/css'>
   </noscript>
-
+-->
   {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification}}" />{% endif %}
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
 	{% if page.meta_description %}<meta name="description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.teaser %}<meta name="description" content="{{ page.teaser | strip_html | escape }}"/>{% elsif site.description %}<meta name="description" content="{{ site.description | strip_html | escape }}"/>{% endif %}
