@@ -193,3 +193,12 @@ Weapons of Choice: Ruby on Rails, EmberJS, Vim
 
 Known Hangouts: Como Park Zoo, Howard Conn Fine Arts Center, The Green Spoon
 
+***
+
+### Jim Young
+![Jim Young Luminary]({{ site.urlimg }}/jim-young-luminary.jpg){:.meetteamimg}
+
+Jim Young began programming with a class in high school in 1966.  He continued, earning a BS degree in Sociology and Computer Science from  the U of MN in 1973 and had a full time career as a software developer that ended with his retirement in 2014.  Looking for something fun to do in retirement, he joined MPC in 2015.
+
+When he isn't programming, he enjoys various outdoor activities (biking, x-c skiing, canoeing, hiking etc.), bread baking and traveling.  He also is a volunteer Luminarian for the City of Lakes Luminary Loppet.
+
