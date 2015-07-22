@@ -9,14 +9,14 @@ categories:
 # Overview of Spatial Integration
 I recently used spark to run a batch job to create production data. I started knowing very little about spark, hadoop, or HPC in general. The following is an overview of the problem that I was trying to solve. Future blog posts will go more in depth on how I used spark to solve it.
 
-##The Problem
+## The Problem
 I work on a webapp called NHGIS, which delivers modern and historical demographic data online. All the data for NHGIS is categorized by variable (e.g. population) and tied to a specific geography and year. We have a feature called time series which allows users to download multiple years for the same variable and same geography. This makes it very easy to see how different variables have changed over time for a given area, however it can be misleading when geographies keep the same name but change geographic footprint. To illustrate this problem I’ll give the following example.
 
 Let’s suppose that Minneapolis had a population of 100,000 in the year 2000, and a population of 200,000 in the year 2010. Now let’s say that in the year 2007 Minneapolis annexed a large portion of St. Paul. Is the growth due to more people actually living in a geographic area, or is the growth only due to a border change and demographically things have stayed pretty much the same? In this case, it is difficult to tell. This type is what is called a nominally integrated time series, because it was created by connecting names of places rather than actual geographic locations. Nominally integrated time series are useful to have, but can sometimes have data which isn't always as clean as we'd like it to be.
 
 What we plan to provide to our users is spatially integrated extracts, where the geographic footprint stays the same for the data over a period of time. The user will be able to pick a geographic time, such as 2010, and multiple data times, such as 2000 and 2010, and be able to compare them side by side using the 2010 geographic footprint. 
 
-##The Solution
+## The Solution
 To create spatially integrated time series we start at the smallest unit of geography possible, blocks. Then we ask for a crosswalk (from highly learned researchers) that maps blocks from 2000 to blocks from 2010. A few sample lines (with a header row) would look like the following:
 BLOCK2000, BLOCK2010, WEIGHT
 BLOCK A, BLOCK A, .5
@@ -144,18 +144,20 @@ class Transforms:
     return reduce(lambda a,b: a+b, adv_values)
 ```
 
-### Spark Script Walkthrough
+### Main Spark Script Walkthrough
+
+This is a walkthrough of the first script shown above. It outlines the high level process, and calls methods from the second script as needed.
 
 The first 12 lines are just setting up the script and the configuration. The script has access to two different library files, one for config functions and one for transformation functions. They are titled “Config” and “Transforms”, respectively.  Lines 10 and 11 create the config and transforms objects. 
 
 The next section sets up spark, by creating a conf object and passing in some memory parameters (which probably are too high for this particular script, but don’t make a difference on the machines that I’m running on.) It then passes in that conf to the spark server along with the location of the transforms script which spark will need to make sure all of its worker nodes have (it will replicate it and send it to them). Finally it removes any old output file so spark doesn’t later error out when trying to save to an already populated location. 
 
-The final section is the meat of the script, where it opens the source “raw” data file, calls persist to make sure that it is loaded into the workers’ memory, and then starts running transformations. When spark opens the file it splits it up into chunks and spreads the chunks out to each one of its worker nodes, allowing them all to operate on the data at once. 
+The final section is the meat of the script, where it opens the source “raw” data file, calls persist to make sure that it is loaded into the workers’ memory, and then starts running transformations. When spark opens the file it splits it into chunks and spreads the chunks out to each one of its worker nodes, allowing them all to operate on the data at once. 
 
-The first transformation it runs one line 20 is a map of all the lines in the file. This map will turn the line, which is represented as a string, into a tuple where the first value is the geographic location information and the second value is a list of the time series vars that it derived from that line. 
+The first transformation it runs on line 20 is a map of all the lines in the file. This map is where the bulk of the work is being performed. The function `source_line_to_time_series_tuple` takes in a string that reperesents one line of the input data file. It then creates a function called `time_series_var_composition_to_time_series_var` that takes in a single time series var composition. A time series var composition is a list of tuples that looks something like this: `[(0, 10), (11,16)]` where each tuple in the list represents a range of positions in the line to read and parse for a single source value. The new function reads in and sums up these values from the given line, yielding a single harmonized time series value. After that function is created, it is then mapped over each time series var composition to get all the time series var values required. Lastly `source_line_to_time_series_tuple` returns a tuple where the first value is geographic information for the given line, and the second value is a list of these derived time series var values.  
 
-Next, the script sorts these tuples using a different function, that parses out specific sortable information based on the first value of the tuple.
+Next the script sorts these tuples by the geographic information from the first values in each of the tuples. 
 
 Finally, the script turns this tuple back into a string which is then saved as a line in the new data file. 
 
-Spark is lazy in that it will withhold execution until an operation which requires an answer to a previous one to run. The two points in this script where spark actually executes jobs are when sortBy is called and when saveAsTextFile is called. The previous maps are then prepended onto the job (it will do the map before the sort or before the save). This lazy evaluation allows for spark to have to read from disk as little as possible.
+Spark is lazy in that it will withhold execution until an operation which requires an answer to a previous one to run. The two points in this script where spark actually executes jobs are when sortBy is called and when saveAsTextFile is called. The previous maps are then prepended onto the job (it will do the map before the sort or before the save). The file saved is then used in the later transform geographies step.
