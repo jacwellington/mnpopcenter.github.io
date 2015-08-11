@@ -13,7 +13,6 @@ date_gmt: '2015-03-16 20:28:58 -0500'
 categories:
 - Team
 tags: []
-comments: []
 ---
 <strong><a href="/images/from_wp/jason_goray.jpg"><img class=" size-medium wp-image-624 alignright" src="/images/from_wp/jason_goray-225x300.jpg" alt="jason_goray" width="225" height="300" /></a>Project:</strong> All (more or less) MPC web facing projects
 <strong>Favorite Dev Tool:</strong> MacBook Pro

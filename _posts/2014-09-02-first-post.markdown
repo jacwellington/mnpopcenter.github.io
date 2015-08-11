@@ -10,7 +10,6 @@ date: '2014-09-02 05:16:25 -0500'
 date_gmt: '2014-09-02 05:16:25 -0500'
 categories:
 tags: []
-comments: []
 ---
 [You may also be interested in reading [About This Blog]({{site.url}}/info/), a newer version of this topic.]
 

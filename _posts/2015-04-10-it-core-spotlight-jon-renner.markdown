@@ -13,7 +13,6 @@ date_gmt: '2015-04-10 15:41:06 -0500'
 categories:
 - Team
 tags: []
-comments: []
 ---
 <i><a href="/images/from_wp/jon-renner_imag0077.png"><img class=" size-medium wp-image-674 alignright" src="/images/from_wp/jon-renner_imag0077-300x250.png" alt="jon-renner_imag0077" width="300" height="250" /></a>Project: Historical Data</i>
 <i>Favorite Dev Tool: Unix command line</i>

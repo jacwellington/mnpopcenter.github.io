@@ -10,7 +10,6 @@ date: '2014-10-04 05:28:10 -0500'
 date_gmt: '2014-10-04 05:28:10 -0500'
 categories: []
 tags: []
-comments: []
 permalink: /working-mpc/benefits-of-working-at-the-mpc/
 ---
 <a href="/images/from_wp/goldy_logo.jpg"><img class="alignright wp-image-285 size-medium" src="/images/from_wp/goldy_logo-300x200.jpg" alt="goldy_logo" width="300" height="200" /></a>As part of the University of Minnesota, MPC employees enjoy access to the U's formal benefit plan. Highlights include:

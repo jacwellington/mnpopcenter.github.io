@@ -12,7 +12,6 @@ date_gmt: '2015-06-05 20:03:05 -0500'
 categories:
 - Team
 tags: []
-comments: []
 ---
 
 <a href="/images/from_wp/8272206292_526691b86e_o-e1433534371355.jpg"><img class=" size-thumbnail wp-image-930 alignleft" src="/images/from_wp/8272206292_526691b86e_o-150x150.jpg" alt="Hiring" width="150" height="150" /></a>Over the past two years, the MPC IT Core has more than doubled from 11 to 24 individuals. All of this hiring activity is a big commitment of time and energy for our team, so we've refactored the way we hire staff, aiming for a process that is sustainable for us, fair for our candidates, and still allows us to get an accurate assessment of a candidate's fit for our needs.

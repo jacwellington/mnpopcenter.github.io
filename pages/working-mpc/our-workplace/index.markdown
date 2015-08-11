@@ -10,7 +10,6 @@ date: '2014-10-04 05:00:02 -0500'
 date_gmt: '2014-10-04 05:00:02 -0500'
 categories: []
 tags: []
-comments: []
 permalink: /working-mpc/our-workplace/
 ---
 Home base for the MPC IT Core is <a title="Willey Hall" href="http://www1.umn.edu/twincities/maps/WilleyH/" target="_blank">Willey Hall</a> on the West Bank of the Twin Cities campus of the University of Minnesota. With the Mississippi River and the sprawling East Bank campus just out our front door, and the Cedar-Riverside neighborhood and downtown Minneapolis out the back, we're in a convenient, beautiful, and connected spot. Our workspace balances collaboration with privacy, and campus offers lots of options for hiding away when focus time is needed.

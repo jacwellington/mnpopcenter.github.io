@@ -12,7 +12,6 @@ categories:
 - Data Processing
 - Featured
 tags: []
-comments: []
 ---
 Tis the holiday season and in Minnesota that means two things:
 

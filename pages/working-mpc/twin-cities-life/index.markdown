@@ -10,7 +10,6 @@ date: '2014-08-01 22:28:31 -0500'
 date_gmt: '2014-08-01 22:28:31 -0500'
 categories: []
 tags: []
-comments: []
 permalink: /working-mpc/twin-cities-life/
 ---
 <a href="/images/from_wp/calhoun-skyline-web.jpg"><img class="alignnone size-full wp-image-115" src="/images/from_wp/calhoun-skyline-web.jpg" alt="Lake Calhoun" width="1000" height="380" /></a>
