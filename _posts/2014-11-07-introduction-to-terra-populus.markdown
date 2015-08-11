@@ -11,7 +11,6 @@ date_gmt: '2014-11-07 20:18:11 -0600'
 categories:
 - TerraPop
 tags: []
-comments: []
 ---
 <em><strong>"Terra Populus will integrate the world's population and environmental data"</strong></em>
 

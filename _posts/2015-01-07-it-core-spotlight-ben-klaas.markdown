@@ -12,7 +12,6 @@ date_gmt: '2015-01-07 15:13:46 -0600'
 categories:
 - Team
 tags: []
-comments: []
 ---
 <strong>Role:</strong> Data Delivery<strong><a href="/images/from_wp/ben-tacotuesday.jpg"><img class=" size-medium wp-image-417 alignright" src="/images/from_wp/ben-tacotuesday-300x223.jpg" alt="ben-tacotuesday" width="300" height="223" /></a></strong>
 <strong>Product:</strong> I get to work on many MPC products, but primarily on integrated microdata ones (IPUMS). My role is to work closely with researchers here to help them have the tools they need to process population data and metadata.

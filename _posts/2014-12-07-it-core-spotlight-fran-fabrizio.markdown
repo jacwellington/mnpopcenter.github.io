@@ -12,7 +12,6 @@ date_gmt: '2014-12-07 15:11:07 -0600'
 categories:
 - Team
 tags: []
-comments: []
 ---
 <strong><a href="/images/from_wp/fran-corn.jpg"><img class=" size-medium wp-image-407 alignright" src="/images/from_wp/fran-corn-300x208.jpg" alt="fran-corn" width="300" height="208" /></a>Name:  </strong>Fran Fabrizio
 <strong>Role: </strong>IT Director

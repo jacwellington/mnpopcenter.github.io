@@ -11,7 +11,6 @@ date_gmt: '2014-09-22 16:40:34 -0500'
 categories:
 - MPC in the News
 tags: []
-comments: []
 ---
 
 <img class="alignnone wp-image-138 size-large" src="/images/from_wp/media-age-first-marriage-1024x818.png" alt="media-age-first-marriage" width="1024" height="818" />In the Washington Post's Wonkblog article today <a title="Name That Data" href="http://www.washingtonpost.com/blogs/wonkblog/wp/2014/09/22/name-that-data-answers-week-9/" target="_blank">Name That Data answers, Week 9</a>, the MPC's fearless leader Steve Ruggles was cristened the Wonkblog-Certified Data Wizard. In response to this week's data challenge:

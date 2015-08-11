@@ -13,7 +13,6 @@ categories:
 - Ruby on Rails
 - NHGIS
 tags: []
-comments: []
 ---
 
 Ever since I joined the MPC as the primary web developer for NHGIS (<a href="http://nhgis.org/">http://nhgis.org/</a>) a few months ago, the shadow of an enormous problem has loomed over my head. NHGIS is a project that has evolved over the course of more than a decade, and for all of the technical boons, debts, and peculiarities that I inherited, there is one which stands out as the most challenging. It's not the incredibly complex queries in need of optimization, though they're certainly in there. It's not the dark corners of Rails 2 style code in need of a refresh, though there's no shortage of that either. No, it's the javascript. Ugh.

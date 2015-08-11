@@ -14,7 +14,6 @@ categories:
 - Data Processing
 tags:
 - Blarticle
-comments: []
 ---
 
 The MPC's data has been cited thousands of times by publications as varied as the academic journal Demography to the New York Times.  In this article, we explore how we make connections between those citations and the user accounts in our data dissemination products to help connect users to their work and to others doing similar work.
