@@ -16,7 +16,6 @@ tags:
 - JRuby
 - Java
 - Happiness
-comments: []
 ---
 
 >"The goal of Ruby is to make programmers happy."

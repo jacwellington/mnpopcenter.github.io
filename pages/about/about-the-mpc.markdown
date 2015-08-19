@@ -10,7 +10,6 @@ date: '2014-07-28 22:51:04 -0500'
 date_gmt: '2014-07-28 22:51:04 -0500'
 categories: []
 tags: []
-comments: []
 permalink: /about/about-the-mpc/
 ---
 

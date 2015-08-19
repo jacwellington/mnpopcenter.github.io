@@ -13,7 +13,6 @@ date_gmt: '2015-01-28 17:10:23 -0600'
 categories:
 - Data Processing
 tags: []
-comments: []
 ---
 ## What it is and How to Make it Go Away Using Ruby
 

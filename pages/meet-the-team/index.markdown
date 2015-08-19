@@ -10,7 +10,6 @@ date: '2015-01-07 08:24:33 -0600'
 date_gmt: '2015-01-07 14:24:33 -0600'
 categories: []
 tags: []
-comments: []
 permalink: /meet-the-team/
 ---
 
@@ -20,6 +19,8 @@ permalink: /meet-the-team/
 Colin started at MPC in 2001 as a "Junior Application Programmer" and now works a senior software developer. He's been responsible for data extraction for the MPC's end users (the "Extract Engine") for IPUMS and Terra Populus and NHGIS in its latest version. Also responsible for data conversion on all microdata products.
 
 Currently he uses C++ 11, Java and Ruby professionally. For hobby projects Colin has also tinkered with Go, D, Scheme, Perl, and is interested in learning Rust and Clojure.
+
+(Colin has also been <a title="IT Core Spotlight: Colin Davis" href="/it-core-spotlight-colin-davis/">Spotlighted</a>!)
 
 <img class="alignnone wp-image-364" src="{{ site.urlimg }}/from_wp/blog.png" alt="blog" width="30" height="30" />
 
@@ -57,7 +58,7 @@ After several years in private industry he moved to higher education where he ha
 
 Outside of work, Fran is likely to be found making a horrible mess of the kitchen, cruising around on his bike, or hanging out watching cars and trucks with his son.
 
-(Fran has also been <a title="IT Core Spotlight: Fran Fabrizio" href="/team/it-core-spotlight-fran-fabrizio/">Spotlighted</a>!)
+(Fran has also been <a title="IT Core Spotlight: Fran Fabrizio" href="/it-core-spotlight-fran-fabrizio/">Spotlighted</a>!)
 
 <a title="Twitter" href="https://twitter.com/franfabrizio" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/from_wp/twitter-e1418676723621.png" alt="twitter" width="30" height="30" /></a>   <a title="LinkedIn" href="www.linkedin.com/in/franfabrizio/" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/from_wp/linkedin.png" alt="linkedin" width="30" height="30" /></a>
 
@@ -68,7 +69,7 @@ Outside of work, Fran is likely to be found making a horrible mess of the kitche
 
 My primary interest in web development is the interface design and how people use web sites. I enjoy the constantly evolving environment of the web and trying to best apply good programming and design techniques to new platforms and technologies.
 
-(Jason has also been <a title="IT Core Spotlight: Jason Goray" href="/team/it-core-spotlight-jason-goray/">Spotlighted</a>!)
+(Jason has also been <a title="IT Core Spotlight: Jason Goray" href="/it-core-spotlight-jason-goray/">Spotlighted</a>!)
 
 ***
 
@@ -89,7 +90,7 @@ In his free time, Kevin teaches group fitness classes at the YWCA of Minneapolis
 ### Alex Jokela
 <img class=" wp-image-393 size-thumbnail alignright" src="{{ site.urlimg }}/from_wp/Jokela-Alex-e1420058478101-150x150.jpeg" alt="Jokela, Alex" width="150" height="150" />I am a thirty-something software engineer who programs (or has programmed &ndash; past tense) in languages with names like Java, Ruby, PHP, Python and a host of others. I enjoy programming/coding; it provides mental stimulation and also pays the bills.  I am also a computer science graduate student at the U.
 
-(Alex has also been <a title="IT Core Spotlight: Alex Jokela" href="/team/it-core-spotlight-alex-jokela/">Spotlighted</a>!)
+(Alex has also been <a title="IT Core Spotlight: Alex Jokela" href="/it-core-spotlight-alex-jokela/">Spotlighted</a>!)
 
 <a title="Twitter" href="http://twitter.com/alexjokela" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/from_wp/twitter-e1418676723621.png" alt="twitter" width="30" height="30" /></a>  <a href="https://snowshoebees.com/"><img class="alignnone wp-image-364" src="{{ site.urlimg }}/from_wp/blog.png" alt="blog" width="30" height="30" /></a>
 
@@ -107,7 +108,7 @@ Ben works closely with demographic researchers at MPC on a variety of its produc
 
 Outside of his work at MPC, Ben is an avid cyclist, golfer, and birdwatcher. He is also the father to two lovely daughters. As of this writing, Ben has never been to outer space.
 
-(Ben has also been <a title="IT Core Spotlight: Ben Klaas" href="/team/it-core-spotlight-ben-klaas/">Spotlighted</a>!)
+(Ben has also been <a title="IT Core Spotlight: Ben Klaas" href="/it-core-spotlight-ben-klaas/">Spotlighted</a>!)
 
 <a title="LinkedIn" href="https://www.linkedin.com/in/bklaas" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/from_wp/linkedin.png" alt="linkedin" width="30" height="30" /></a> <a title="Github" href="https://github.com/bklaas"><img class="alignnone wp-image-363" src="{{ site.urlimg }}/from_wp/github.png" alt="github" width="30" height="30" /></a>
 
@@ -154,7 +155,7 @@ Besides coding for IPUMS projects, he can be found hanging out with his friends,
 ### Jon Renner
 <a href="{{ site.urlimg }}/from_wp/jon-renner_imag0077.png"><img class=" size-thumbnail wp-image-674 alignright" src="{{ site.urlimg }}/from_wp/jon-renner_imag0077-150x150.png" alt="jon-renner_imag0077" width="150" height="150" /></a> Jon has been interested in computers from a very early age, but it wasn't until 2011 that he began to teach himself how to program. Before that, he graduated from the University of Minnesota with a degree in Asian Languages and Literature, and went to Taiwan to study Asian history. After developing a semi-successful mobile game, Jon has come to the MPC where he is working on historical data as part of the Data Production team.
 
-(Jon has also been <a title="IT Core Spotlight: Jon Renner" href="/team/it-core-spotlight-jon-renner/">Spotlighted</a>!)
+(Jon has also been <a title="IT Core Spotlight: Jon Renner" href="/it-core-spotlight-jon-renner/">Spotlighted</a>!)
 
 ***
 
@@ -192,4 +193,13 @@ Known Behaviors: The target is trained in both computer science and theatre arts
 Weapons of Choice: Ruby on Rails, EmberJS, Vim
 
 Known Hangouts: Como Park Zoo, Howard Conn Fine Arts Center, The Green Spoon
+
+***
+
+### Jim Young
+![Jim Young Luminary]({{ site.urlimg }}/jim-young-luminary.jpg){:.meetteam}
+
+Jim Young began programming with a class in high school in 1966.  He continued, earning a BS degree in Sociology and Computer Science from  the U of MN in 1973 and had a full time career as a software developer that ended with his retirement in 2014.  Looking for something fun to do in retirement, he joined MPC in 2015.
+
+When he isn't programming, he enjoys various outdoor activities (biking, x-c skiing, canoeing, hiking etc.), bread baking and traveling.  He also is a volunteer Luminarian for the City of Lakes Luminary Loppet.
 

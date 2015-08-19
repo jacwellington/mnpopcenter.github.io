@@ -10,7 +10,6 @@ date: '2014-07-28 22:20:27 -0500'
 date_gmt: '2014-07-28 22:20:27 -0500'
 categories: []
 tags: []
-comments: []
 permalink: /working-mpc/career-opportunities/
 ---
 <a href="/images/from_wp/u-of-m-fense-flowers.jpg"><img class="size-medium wp-image-292 alignright" src="/images/from_wp/u-of-m-fense-flowers-300x201.jpg" alt="u-of-m-fense-flowers" width="300" height="201" /></a>

@@ -1,10 +1,10 @@
 # The MPC IT Blog
 
-This is the MPC IT Blog repository.  This blog is managed using the Jekyll blogging platform and is published as a GitHub Pages site.  Github Pages is a web site creation tool that is integrated into Github.  It simply uses Jekyll under the hood to automatically rebuild a web site any time changes are committed to the master branch of a specially-named repository.  The site is available at <http://tech.popdata.org/>.
+This is the MPC IT Blog repository.  This blog is managed using the Jekyll blogging platform and is published as a GitHub Pages site.  Github Pages is a web site creation tool that is integrated into Github.  It uses Jekyll under the hood to automatically rebuild a web site any time changes are committed to the master branch of a specially-named repository.  The site itself is available at <http://tech.popdata.org/>.
 
 The advantage to this approach over other blogging platforms (e.g. Wordpress) is that the resulting site is purely static - there is no PHP or database to worry about.  And since it's hosted at Github, there is no web hosting service to worry about, either.  It also allows the publishing pathway to be based on git, which is already familiar to MPC IT staff.
 
-The blog is managed like any other git/Github repository.  Blog editors manage the master branch.  Blog authors create new content on feature branches and then submit pull requests to the editors.  The author and editor will collaborate on the feature branch, and once the post is ready the editor will merge it into the master branch, triggering a site rebuild to publish the new content.
+The blog is managed like any other git/Github repository.  Blog editors manage the master repository.  Blog authors create new content on forks and then submit pull requests to the editors.  The author and editor will collaborate on the pull request, and once the post is ready the editor will merge it into the master branch of the main repo, triggering a site rebuild to publish the new content.
 
 ## Instructions for Blog Authors
 
@@ -94,7 +94,7 @@ Pygments offers hundreds of languages.  Some useful ones for us are ruby, python
 
 _Warning: Do not try to use other flavors of markdown fenced code blocks (e.g. "~~~" or "```").  They will not work in the Jekyll/GitHub Pages ecosystem._
 
-To create inline code snippets, use markdown code spans with the single backtick.  These _do_ work on GitHub Pages sites.  For example:
+To create inline code snippets, use markdown code spans with the single backticks.  These _do_ work on GitHub Pages sites.  For example:
 
 ~~~
 At the shell, type `gem install hflr` to install the hierarchical fixed length records gem.
@@ -114,9 +114,25 @@ If you want to include images in your posts, add them to the images directory in
 
 There are two basic workflow approaches for authoring blog posts, each with its own advantages.
 
-#### Method 1: Online via the Github Web Interface
+####  Method 1: Locally by Cloning the Repo and Running Jekyll Locally
 
-**One thing I'm not sure about is Github permissions and branching vs. forking.  Since I'm a Github owner, it's hard for me to simulate this as a non-owner.  Someone please test this with branching and forking and see what works.**
+* Pros: Edit on local machine with your preferred tools.  Ability to preview locally (with Jekyll properly installed locally).
+* Cons: Additional one-time setup required. Still have to go to Github to create pull request.
+* Best for: Authoring more complicated posts. Collaborative editing with others.  
+
+_Note: If you don't have Jekyll installed, please see [Instructions for Installing and Running Jekyll Locally](#install) first._
+
+1. Fork this repository on github.com.
+2. Clone it locally.
+3. (Optional) Create a branch.  Probably only necessary if you want to work on multiple posts at once.
+1. Navigate into the _posts directory.
+1. Create a new file in the _posts directory. Use the naming scheme "YYYY-MM-DD-title-of-my-post.markdown" for your new file.
+1. Create your post. Follow the directions for [Creating Blog Post Content](#content_reqs) below.
+1. Start your Jekyll server if you haven't already, and preview your work.
+1. When done, add your new file, commit your changes, and push to your forked repo to Github.
+1. Go to the Github web interface for the forked repository, and [create a pull request](https://help.github.com/articles/creating-a-pull-request/) back to the master branch of the main repo. 
+
+#### Method 2: Online via the Github Web Interface
 
 * Pros: Everything can be done from the web.
 * Cons: No way to preview the post.
@@ -125,34 +141,13 @@ There are two basic workflow approaches for authoring blog posts, each with its 
 1. If you don't already have a fork of the repository:
   1. Open a browser to the repository: <http://github.com/mnpopcenter/mnpopcenter.github.io>.
   1. Fork the repository.
-1. If you already have a fork of the repository:
+1. If you already have a fork of the repository (and want to keep it instead of just tossing it out and doing the step above instead):
   1. Navigate to your fork.
-  1. Update your fork (how to do this from web?)
+  1. Update your fork from the upstream source (see [here](http://stackoverflow.com/questions/22318145/update-github-fork-from-web-only-in-other-words-without-git) for a way to do this right from the web or [here](http://stackoverflow.com/questions/7244321/how-to-update-github-forked-repository))
 1. Navigate into the _posts directory of your fork.
 1. Click the + icon to create a new file in the _posts directory. Use the naming scheme "YYYY-MM-DD-title-of-my-post.markdown" for your new file.
 1. Create your post. Follow the directions for [Creating Blog Post Content](#content_reqs).
 1. When done, submit a pull request back to the main repo.
-
-####  Method 2: Locally by Cloning the Repo and Running Jekyll Locally
-
-**One thing I'm not sure about is Github permissions and branching vs. forking.  Since I'm a Github owner, it's hard for me to simulate this as a non-owner.  Someone please test this with branching and forking and see what works.**
-
-* Pros: Edit on local machine with your preferred tools.  Ability to preview locally (with Jekyll properly installed locally).
-* Cons: Additional one-time setup required. Still have to go to Github to create pull request.
-* Best for: Authoring more complicated posts. Collaborative editing with others.  
-
-_Note: If you don't have Jekyll installed, please see [Instructions for Installing and Running Jekyll Locally](#install) first._
-
-**This probably needs to be updated for fork strategy**
-
-1. Clone the master branch of this repository locally on your machine.
-1. Create a new branch with a descriptive name like "fran-hiring-process-post".
-1. Navigate into the _posts directory.
-1. Create a new file in the _posts directory. Use the naming scheme "YYYY-MM-DD-title-of-my-post.markdown" for your new file.
-1. Create your post. Follow the directions for [Creating Blog Post Content](#content_reqs) below.
-1. Start your Jekyll server if you haven't already, and preview your work.
-1. When done, add your new file, commit your changes, and push the branch to Github.
-1. Go to the Github web interface for the repository, and [create a pull request](https://help.github.com/articles/creating-a-pull-request/). 
 
 ## <a name="install">Instructions for Installing and Running Jekyll Locally</a>
 

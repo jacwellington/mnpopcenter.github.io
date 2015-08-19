@@ -13,7 +13,6 @@ categories:
 - IPUMS
 - Data Processing
 tags: []
-comments: []
 ---
 <em>Read [part one]({% post_url 2015-01-28-fixed-length-record-data %}) first.</em>
 

@@ -15,7 +15,6 @@ categories:
 - IPUMS
 - MPC in the News
 tags: []
-comments: []
 ---
 
 <a href="/images/from_wp/data-viz-us-pop-migration.jpg"><img class="size-full wp-image-107" src="/images/from_wp/data-viz-us-pop-migration.jpg" alt="Source: New York Times, The Upshot" width="800" height="381" /></a> Source: New York Times, The Upshot

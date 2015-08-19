@@ -12,7 +12,6 @@ date: '2015-01-21 16:49:12 -0600'
 date_gmt: '2015-01-21 22:49:12 -0600'
 categories:
 tags: []
-comments: []
 ---
 In the spirit of the new year, we thought we'd share a partial list of what we hope to accomplish in 2015! These aren't goals for our main projects, which each have their own list, but rather all of that technical debt that needs to be paid off.  Without further ado, here are our Top 10 tech debt hopes and dreams for 2015!
 
