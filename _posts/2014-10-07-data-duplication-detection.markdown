@@ -14,7 +14,6 @@ tags:
 - duplication
 - 1880 Census
 - 1940 Census
-comments: []
 ---
 
 Dealing with historical census data is dealing with dirty data.  Prior to the 1960 census, the primary way of collecting census data was through enumeration-by-foot. People were hired as enumerators to walk through districts and interview residents as they filled out a hand-written <a title="Census Forms" href="http://www.ancestry.com/download/forms" target="_blank">enumeration form</a>.  The end of the census was just the beginning of the long life of these forms.   These forms were collected by the Census Bureau and stored for decades.  In some cases sheets were lost.  For an extreme example, <a title="Fate of the 1890 Census" href="http://www.archives.gov/publications/prologue/1996/spring/1890-census-1.html" target="_blank">the entire 1890 census was lost to a fire</a>, but other censuses would lose a sheet here and there, or maybe an entire town.

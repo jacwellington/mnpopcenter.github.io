@@ -12,7 +12,6 @@ categories:
 - IPUMS
 - Data Processing
 tags: []
-comments: []
 ---
 Here at the MPC, we deal with lots of different kinds of source data.  The Data Conversion Program (DCP) creates the MPC's harmonized version of microdata for many of the <a title="Data Products" href="http://tech.popdata.org/data-products/">MPC's data products</a>.
 

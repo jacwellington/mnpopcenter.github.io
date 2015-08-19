@@ -20,7 +20,6 @@ tags:
 - SSL
 - TLS
 - CLI
-comments: []
 ---
 
 I visited the doctor recently[^1] and on the paperwork they gave me when I left was an authorization code to register with their online medical records system. I visited the page to sign up and the address bar was distressingly decorated. ![HTTPS in strikethrough with a red X over a lock][img-insecure]

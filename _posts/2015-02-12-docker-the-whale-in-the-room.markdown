@@ -13,7 +13,6 @@ date_gmt: '2015-02-12 19:13:48 -0600'
 categories:
 - Devops
 tags: []
-comments: []
 ---
 Docker is a new and interesting technology. I'd read about it and spent some time creating images and containers at home, but I always struggled to understand what it would look like to use Docker every day working on a non-trivial application. I wondered if it could be useful at the MPC, if we could use it to run tests more consistently, if we could use it to create development environments faster, or if we might even be able to realistically run containers in production.
 

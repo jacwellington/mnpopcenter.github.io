@@ -14,7 +14,6 @@ categories:
 - IPUMS
 - MPC in the News
 tags: []
-comments: []
 ---
 
 <a href="/images/from_wp/data-viz-one-pct-profesions.jpg"><img class="size-full wp-image-111" src="/images/from_wp/data-viz-one-pct-profesions.jpg" alt="The Top 1 Percent: What Jobs Do They Have?" width="800" height="380" /></a> Source: New York Times, Business Section, January 15, 2012

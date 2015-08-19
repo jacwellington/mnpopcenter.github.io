@@ -12,7 +12,6 @@ date_gmt: '2015-02-17 22:45:10 -0600'
 categories:
 - Team
 tags: []
-comments: []
 ---
 <strong><a href="/images/from_wp/beekeeper-alex.jpg"><img class="alignright wp-image-588" src="/images/from_wp/beekeeper-alex-199x300.jpg" alt="" width="232" height="350" /></a>Name:</strong> Alex C. Jokela
 <strong>Project:</strong> Terra Populus
