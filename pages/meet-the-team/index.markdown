@@ -22,7 +22,7 @@ Currently he uses C++ 11, Java and Ruby professionally. For hobby projects Colin
 
 (Colin has also been <a title="IT Core Spotlight: Colin Davis" href="/it-core-spotlight-colin-davis/">Spotlighted</a>!)
 
-<img class="alignnone wp-image-364" src="{{ site.urlimg }}/from_wp/blog.png" alt="blog" width="30" height="30" />
+<img class="alignnone wp-image-364" src="{{ site.urlimg }}/blog30x30.png" alt="blog" width="30" height="30" />
 
 ***
 
@@ -47,7 +47,7 @@ In his free time, he enjoys homebrewing, cooking, canoeing, and tinkering with h
 
 Outside of the MPC, Jesse has been deeply involved with the local soccer community, dark-clouds.com, as well as pretending to be a music nerd on a music discovery podcast and associated site at audiobonsai.com. His wife allows him to reside in their home in the Northeast Suburbs of the Twin Cities along with their pet Labradoodle and decidedly less furry human child.
 
-<a title="LinkedIn" href="https://www.linkedin.com/pub/jesse-erdmann/3/4aa/99b" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/from_wp/linkedin.png" alt="linkedin" width="30" height="30" /></a>
+<a title="LinkedIn" href="https://www.linkedin.com/pub/jesse-erdmann/3/4aa/99b" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/linkedin30x30.png" alt="linkedin" width="30" height="30" /></a>
 
 ***
 
@@ -60,7 +60,7 @@ Outside of work, Fran is likely to be found making a horrible mess of the kitche
 
 (Fran has also been <a title="IT Core Spotlight: Fran Fabrizio" href="/it-core-spotlight-fran-fabrizio/">Spotlighted</a>!)
 
-<a title="Twitter" href="https://twitter.com/franfabrizio" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/from_wp/twitter-e1418676723621.png" alt="twitter" width="30" height="30" /></a>   <a title="LinkedIn" href="www.linkedin.com/in/franfabrizio/" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/from_wp/linkedin.png" alt="linkedin" width="30" height="30" /></a>
+<a title="Twitter" href="https://twitter.com/franfabrizio" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/twitter30x30.png" alt="twitter" width="30" height="30" /></a>   <a title="LinkedIn" href="www.linkedin.com/in/franfabrizio/" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/linkedin30x30.png" alt="linkedin" width="30" height="30" /></a>
 
 ***
 
@@ -92,7 +92,7 @@ In his free time, Kevin teaches group fitness classes at the YWCA of Minneapolis
 
 (Alex has also been <a title="IT Core Spotlight: Alex Jokela" href="/it-core-spotlight-alex-jokela/">Spotlighted</a>!)
 
-<a title="Twitter" href="http://twitter.com/alexjokela" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/from_wp/twitter-e1418676723621.png" alt="twitter" width="30" height="30" /></a>  <a href="https://snowshoebees.com/"><img class="alignnone wp-image-364" src="{{ site.urlimg }}/from_wp/blog.png" alt="blog" width="30" height="30" /></a>
+<a title="Twitter" href="http://twitter.com/alexjokela" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/twitter30x30.png" alt="twitter" width="30" height="30" /></a>  <a href="https://snowshoebees.com/"><img class="alignnone wp-image-364" src="{{ site.urlimg }}/blog30x30.png" alt="blog" width="30" height="30" /></a>
 
 ***
 
@@ -110,7 +110,7 @@ Outside of his work at MPC, Ben is an avid cyclist, golfer, and birdwatcher. He 
 
 (Ben has also been <a title="IT Core Spotlight: Ben Klaas" href="/it-core-spotlight-ben-klaas/">Spotlighted</a>!)
 
-<a title="LinkedIn" href="https://www.linkedin.com/in/bklaas" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/from_wp/linkedin.png" alt="linkedin" width="30" height="30" /></a> <a title="Github" href="https://github.com/bklaas"><img class="alignnone wp-image-363" src="{{ site.urlimg }}/from_wp/github.png" alt="github" width="30" height="30" /></a>
+<a title="LinkedIn" href="https://www.linkedin.com/in/bklaas" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/linkedin30x30.png" alt="linkedin" width="30" height="30" /></a> <a title="Github" href="https://github.com/bklaas"><img class="alignnone wp-image-363" src="{{ site.urlimg }}/github30x30.png" alt="github" width="30" height="30" /></a>
 
 ***
 
@@ -129,7 +129,7 @@ Willy Lee started his web work while studying studio art at Carleton College. Th
 
 In his free time, Willy is a cycling advocate, election judge, outdoorsman, home chef, and enthusiastic diner. He lives in south Minneapolis with his spouse and three cats. He's always happy to talk about bikes, cats, food, cats, internet, cats, and internet optimization.
 
-<a title="Twitter" href="https://twitter.com/advicepig" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/from_wp/twitter-e1418676723621.png" alt="twitter" width="30" height="30" /></a>   <a title="LinkedIn" href="https://www.linkedin.com/in/willylee" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/from_wp/linkedin.png" alt="linkedin" width="30" height="30" /></a>   <a title="Github" href="https://github.com/willylee"><img class="alignnone wp-image-363" src="{{ site.urlimg }}/from_wp/github.png" alt="github" width="30" height="30" /></a>
+<a title="Twitter" href="https://twitter.com/advicepig" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/twitter30x30.png" alt="twitter" width="30" height="30" /></a>   <a title="LinkedIn" href="https://www.linkedin.com/in/willylee" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/linkedin30x30.png" alt="linkedin" width="30" height="30" /></a>   <a title="Github" href="https://github.com/willylee"><img class="alignnone wp-image-363" src="{{ site.urlimg }}/github30x30.png" alt="github" width="30" height="30" /></a>
 
 ***
 
@@ -140,7 +140,7 @@ These days, Marcus leads the development team for the ever-growing suite of IPUM
 
 When not planning work for the team or writing code, Marcus can frequently be observed running along the banks of the Mississippi. He also enjoys music, movies, and may or may not have a Star Wars addiction.
 
-<a title="Twitter" href="https://twitter.com/marcusgpeterson" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/from_wp/twitter-e1418676723621.png" alt="twitter" width="30" height="30" /></a>   <a title="LinkedIn" href="https://www.linkedin.com/in/marcuspeterson" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/from_wp/linkedin.png" alt="linkedin" width="30" height="30" /></a>
+<a title="Twitter" href="https://twitter.com/marcusgpeterson" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/twitter30x30.png" alt="twitter" width="30" height="30" /></a>   <a title="LinkedIn" href="https://www.linkedin.com/in/marcuspeterson" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/linkedin30x30.png" alt="linkedin" width="30" height="30" /></a>
 
 ***
 
@@ -148,7 +148,7 @@ When not planning work for the team or writing code, Marcus can frequently be ob
 <a href="{{ site.urlimg }}/from_wp/jayandra.jpeg"><img class=" size-thumbnail wp-image-412 alignright" src="{{ site.urlimg }}/from_wp/jayandra-150x150.jpeg" alt="jayandra" width="150" height="150" /></a>Jayandra is a Ruby On Rails developer and loves programming with Ruby. He joined the MPC in the summer of 2014 on the IPUMS product family team.
 
 Besides coding for IPUMS projects, he can be found hanging out with his friends, watching movies and documentaries, and going for a walk.
-<a title="LinkedIn" href="https://www.linkedin.com/in/jayandrapokharel" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/from_wp/linkedin.png" alt="linkedin" width="30" height="30" /></a><a title="Github" href="https://github.com/jayandra"><img class="alignnone wp-image-363" src="{{ site.urlimg }}/from_wp/github.png" alt="github" width="30" height="30" /></a>
+<a title="LinkedIn" href="https://www.linkedin.com/in/jayandrapokharel" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/linkedin30x30.png" alt="linkedin" width="30" height="30" /></a><a title="Github" href="https://github.com/jayandra"><img class="alignnone wp-image-363" src="{{ site.urlimg }}/github30x30.png" alt="github" width="30" height="30" /></a>
 
 ***
 
@@ -173,7 +173,7 @@ My primary interests include hacking and scripting/automating small things. Rece
 
 Besides coding he loves cooking, beer tasting, and hiking along US National Parks.
 
-<a title="Twitter" href="https://twitter.com/fabio_trabucchi" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/from_wp/twitter-e1418676723621.png" alt="twitter" width="30" height="30" /></a>   <a title="LinkedIn" href="www.linkedin.com/in/fabiotrabucchi" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/from_wp/linkedin.png" alt="linkedin" width="30" height="30" /></a>
+<a title="Twitter" href="https://twitter.com/fabio_trabucchi" target="_blank"><img class="alignnone wp-image-361" src="{{ site.urlimg }}/twitter30x30.png" alt="twitter" width="30" height="30" /></a>   <a title="LinkedIn" href="www.linkedin.com/in/fabiotrabucchi" target="_blank"><img class="alignnone wp-image-362" src="{{ site.urlimg }}/linkedin30x30.png" alt="linkedin" width="30" height="30" /></a>
 
 ***
 
