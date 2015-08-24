@@ -21,11 +21,13 @@ Creating these sorts of spatially integrated time series is more challenging tha
 ## The Solution
 To create spatially integrated time series we start at the smallest unit of geography possible, [blocks](https://en.wikipedia.org/wiki/Census_block){:target="_blank"}. Then we ask for a "crosswalk" file (which is given to us from highly learned researchers) that maps census blocks from 2000 to blocks from 2010. A few sample lines (with a header row) would look like the following:
 
-  BLOCK2000, BLOCK2010, WEIGHT
-  BLOCK A, BLOCK A, .5
-  BLOCK A, BLOCK B, .5
-  BLOCK B, BLOCK B, 1
-  BLOCK C, BLOCK C, 1
+```
+BLOCK2000, BLOCK2010, WEIGHT
+BLOCK A, BLOCK A, .5
+BLOCK A, BLOCK B, .5
+BLOCK B, BLOCK B, 1
+BLOCK C, BLOCK C, 1
+```
 
 The first column is an identifier for a block from the year 2000, the second column is for a block from 2010, and the third is the amount of the 2000 block that should be allocated to the 2010 block. For example the first line (passed the header row) allocates half of 2000-Block-A to 2010-Block-A, and the second allocates the other half of 2000-Block-A to 2010-Block-B.
 
@@ -33,40 +35,50 @@ How we determine that .5 of the 2000 Block A should map to the 2010 Block A is a
 
 Then we take that crosswalk file and transform the second column into our target geography level (we aggregate upwards into larger geographies such as counties or states). For example if we want to create a block-to-state crosswalk file, we start by finding which states the 2010 blocks are in (this example assumes 2010 BLOCK A and 2010 BlOCK B from the above sample are in Minnesota and 2010 BLOCK C is in Wisconsin):
 
-  BLOCK2000, STATE2010, WEIGHT
-  BLOCK A, MINNESOTA, .5
-  BLOCK A, MINNESOTA, .5
-  BLOCK B, MINNESOTA, 1
-  BLOCK C, WISCONSIN, 1
+```
+BLOCK2000, STATE2010, WEIGHT
+BLOCK A, MINNESOTA, .5
+BLOCK A, MINNESOTA, .5
+BLOCK B, MINNESOTA, 1
+BLOCK C, WISCONSIN, 1
+```
 
 and then collapse by summing up rows that map from the same 2000-block to the same 2010-state. We get the following 2000block-to-2010state crosswalk:
 
-  BLOCK2000, STATE2010, WEIGHT
-  BLOCK A, MINNESOTA, 1
-  BLOCK B, MINNESOTA, 1
-  BLOCK C, WISCONSIN, 1
+```
+BLOCK2000, STATE2010, WEIGHT
+BLOCK A, MINNESOTA, 1
+BLOCK B, MINNESOTA, 1
+BLOCK C, WISCONSIN, 1
+```
 
 XXX THIS NEXT PART NEEDS SOME WORK, TOO ABSTRACT, LETS TALK - FRAN XXX
 
 After that we take the new crosswalk and apply the weights to the BLOCK2000 data. So our source file for the year 2000 could look like this:
 
-  BLOCKNAME, Variable1, Variable2
-  BLOCK A, 100, 20 
-  BLOCK B, 300, 0 
-  BLOCK C, 50, 10 
+```
+BLOCKNAME, Variable1, Variable2
+BLOCK A, 100, 20 
+BLOCK B, 300, 0 
+BLOCK C, 50, 10 
+```
 
 And our output would look like this.
 
-  STATE, Variable1, Variable2
-  MINNESOTA, 100, 20
-  MINNESOTA, 300, 0
-  WISCONSIN, 50, 10
+```
+STATE, Variable1, Variable2
+MINNESOTA, 100, 20
+MINNESOTA, 300, 0
+WISCONSIN, 50, 10
+```
 
 Finally we would sum together lines that have the same STATE value.
 
-  STATE, Variable1, Variable2
-  MINNESOTA, 400, 20
-  WISCONSIN, 50, 10
+```
+STATE, Variable1, Variable2
+MINNESOTA, 400, 20
+WISCONSIN, 50, 10
+```
 
 This final file would be the new file we use for 2000 data using 2010 geography times.
 
