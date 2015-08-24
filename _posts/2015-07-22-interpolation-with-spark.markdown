@@ -7,17 +7,19 @@ categories:
 ---
 
 # Overview of Spatial Integration
-I recently used spark to create process that generates new production-ready data. I started knowing very little about spark, hadoop, or HPC in general. The following is an overview of the problem that I was trying to solve, and the implementation details of how I solved it.
+I recently used spark to create a process that generates new production-ready data. I started knowing very little about spark, hadoop, or HPC in general. The following is an overview of the problem that I was trying to solve, and the implementation details of how I solved it.
 
 ## The Problem
-I work on a webapp called [NHGIS](http://nhgis.org){:target="_blank"} , which delivers modern and historical demographic data online. All the data for NHGIS is categorized by variables (e.g. population) and tied to a specific geography and year. We have a feature called time series which allows users to download multiple years for the same variable and same geography. This makes it very easy to see how different variables have changed over time for a given area, however it can be misleading when geographies keep the same name but change geographic footprint. To illustrate this problem I'll give the following example.
+I work on a webapp called [NHGIS](http://nhgis.org){:target="_blank"} , which delivers modern and historical demographic data online. All the data for NHGIS is categorized by variables (e.g. total male population) and tied to a specific geography and year. We have a feature called time series which allows users to download multiple years for the same variable and same geography. This makes it very easy to see how different variables have changed over time for a given area, however it can be misleading when geographies keep the same name but change geographic footprint. To illustrate this problem I'll give the following example.
 
-Let's suppose that Minneapolis had a population of 100,000 in the year 2000, and a population of 200,000 in the year 2010. Now let's say that in the year 2007 Minneapolis annexed a large portion of St. Paul. Is the growth due to more people actually living in a geographic area, or is the growth only due to a border change and demographically things have stayed pretty much the same? In this case, it is difficult to tell. This is called a nominally integrated time series, because it was created by connecting names of places rather than actual geographic locations. Nominally integrated time series are useful to have and easy to create, but don't always give the most useful comparison of data.
+Let's suppose that Minneapolis had a population of 100,000 in the year 2000, and a population of 200,000 in the year 2010. Now let's say that in the year 2007 Minneapolis annexed a large portion of St. Paul. How much of the growth from 2000 to 2010 is due to more people actually living in the same geographic area vs. due to the border change?In this case, it is difficult to tell. This type of time series data is called a "nominally integrated" time series, because it was created by connecting the data using the names of places rather than actual geographic locations. Nominally integrated time series are useful to have and easy to create, but don't always give the most useful comparison of data, depending on the research question.
 
-What we plan to provide to our users with is spatially integrated time series, where the geographic footprint stays the same for the data over a period of time. The user will be able to pick a geographic time, such as 2010, and multiple data times, such as 2000 and 2010, and be able to compare them side by side using the 2010 geographic footprint. In the earlier example, if we were to use spatially integrated time series standardized to 2010, the population for Minneapolis in the year 2000 would have been greater than 100,000 as it would have been using the larger 2010 geographic footprint of Minneapolis.
+What we plan to provide to our users with is spatially integrated time series, where the geographic footprint stays the same for the data over a period of time. The user will be able to pick a geographic time, such as 2010, and multiple data times, such as 2000 and 2010, and be able to compare them side by side using the 2010 geographic footprint. In the earlier example, if we were to use "spatially integrated" time series standardized to 2010 geographic footprints, the population for Minneapolis in the year 2000 would have been greater than 100,000 as it would have used the larger 2010 geographic footprint of Minneapolis to figure out the population of that area in both 2000 and 2010.
+
+Creating these sorts of spatially integrated time series is more challenging than nominally integrated time series.  I'll now present our approach. 
 
 ## The Solution
-To create spatially integrated time series we start at the smallest unit of geography possible, [blocks](https://en.wikipedia.org/wiki/Census_block){:target="_blank"}. Then we ask for a crosswalk file (from highly learned researchers) that maps blocks from 2000 to blocks from 2010. A few sample lines (with a header row) would look like the following:
+To create spatially integrated time series we start at the smallest unit of geography possible, [blocks](https://en.wikipedia.org/wiki/Census_block){:target="_blank"}. Then we ask for a "crosswalk" file (which is given to us from highly learned researchers) that maps census blocks from 2000 to blocks from 2010. A few sample lines (with a header row) would look like the following:
 
 BLOCK2000, BLOCK2010, WEIGHT
 BLOCK A, BLOCK A, .5
@@ -25,14 +27,26 @@ BLOCK A, BLOCK B, .5
 BLOCK B, BLOCK B, 1
 BLOCK C, BLOCK C, 1
 
-The first column is an identifier for a block from the year 2000, the second column is for a block from 2010, and the third is the amount of the 2000 block that should be allocated to the 2010 block. For example the first line (passed the header row) allocates half of 2000-Block-A to 2010-Block-A, and the second allocates the other half of 2000-Block-A to 2010-Block-B. 
+The first column is an identifier for a block from the year 2000, the second column is for a block from 2010, and the third is the amount of the 2000 block that should be allocated to the 2010 block. For example the first line (passed the header row) allocates half of 2000-Block-A to 2010-Block-A, and the second allocates the other half of 2000-Block-A to 2010-Block-B.
 
-Then we take that crosswalk, and transform the second column into our target geography level. For example we could create a block to state crosswalk file by finding which states the 2010 blocks are in and sum up the rows that map from the same 2000-block to 2010-state. Assuming that 2010-Block-A and 2010-BLOCK-B are in Minnesota and 2010-Block-C are in Wisconsin we would get the following new crosswalk:
+How we determine that .5 of the 2000 Block A should map to the 2010 Block A is a fascinating topic in itself which I won't be able to explore in this article.  There are different approaches, ranging from the simple (allocation by which percentage of 2000 Block A is overlapping the 2010 Block A) to the complex (taking into account many other sources of data about the block, such as land use patterns and land cover classifications within different areas of the block).  For the purposes of this article, we will simply note that the researchers who created this crosswalk file chose an appropriate mapping strategy after much research.
 
-BLOCK2000, BLOCK2010, WEIGHT
+Then we take that crosswalk file and transform the second column into our target geography level (we aggregate upwards into larger geographies such as counties or states). For example if we want to create a block-to-state crosswalk file, we start by finding which states the 2010 blocks are in (this example assumes 2010 BLOCK A and 2010 BlOCK B from the above sample are in Minnesota and 2010 BLOCK C is in Wisconsin):
+
+BLOCK2000, STATE2010, WEIGHT
+BLOCK A, MINNESOTA, .5
+BLOCK A, MINNESOTA, .5
+BLOCK B, MINNESOTA, 1
+BLOCK C, WISCONSIN, 1
+
+and then collapse by summing up rows that map from the same 2000-block to the same 2010-state. We get the following 2000block-to-2010state crosswalk:
+
+BLOCK2000, STATE2010, WEIGHT
 BLOCK A, MINNESOTA, 1
 BLOCK B, MINNESOTA, 1
 BLOCK C, WISCONSIN, 1
+
+XXX THIS NEXT PART NEEDS SOME WORK, TOO ABSTRACT, LETS TALK - FRAN XXX
 
 After that we take the new crosswalk and apply the weights to the BLOCK2000 data. So our source file for the year 2000 could look like this:
 
