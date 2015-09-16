@@ -51,9 +51,9 @@ The "American Time-Use Survey" tries to capture how Americans spend their time a
  
   **Software Development Highlights**
  
- To make good use of the time use data one needs to summarize time spent doing activities, qualified by different things like time of day, where the activities were done, type of activity and so forth. The activity data is attached to each person and attached to each of these activity records are records concerning who was with the person... the data, in other words, is rather complex. It can't easily be flattened out, or rather that flat data would be  pretty hard to work with. 
+ To make good use of the time use data one needs to calculate time spent doing activities, usually on a per person basis, qualified by different things like time of day, where the activities were done, type of activity and so forth. The activity data is attached to each person and attached to each of these activity records are records concerning who was with the person... the data, in other words, is rather complex. It can't easily be flattened out, or rather that flat data would be  pretty hard to work with.
  
- We offer a way for users to create their own time use variables. These will get built at the time of a data extract and the values summarized and put onto each person record.  The data that's delivered to a user is person records with all the user created time use variables. These sorts of queries cannot be (quite) expressed in SQL. 
+ We offer a way for users to create their own time use variables, eliminating most of the hard part of preparing the data for analysis. These time use variables get built at the time of a data extract and the values put onto each person record.  The data that's delivered to a user is person records with all the user created time use variables. These sorts of queries cannot be (quite) expressed in SQL except for the simpler, less interesting ones.
  
  Designing the web user interface to formulate the time use variable request, and keeping the UI concise but not confusing or misleading was an interesting challenge. The back-end process for creating these variables on the fly was also something not done in other products and and interesting difference from other microdata at MPC. It makes the data extract system more of a data creation system and adds tremendous value to the time use data.
   
@@ -67,3 +67,7 @@ The "American Time-Use Survey" tries to capture how Americans spend their time a
 * You could visualize various activities with time of day, day of the week or time of year as one of the axis and total time spent as the other.
 * You could visualize a particular activity, such as time spent taking care of pets,   as a line or bar plot with total minutes spent (bucketed into say 30 groups) on one axis and the number of people spending that amount of time on the other axis.
 * Since activities are listed in order for each person in the survey, you could add information on each activity record about the previous and subsequent activity. You could then answer questions like "What do people do after school?" or "How much time is spent driving before and after a restaurant meal?"
+
+See our <a href="http://bibliography.ipums.org"> bibliography</a> for specific publications that used the ATUS. 
+
+You need to register to actually download data, but registration is free.
