@@ -5,7 +5,7 @@ author: ccd
 categories: IPUMS
 ---
 
-In this series I'll briefly introduce a number of MPC data products and highlight points of interest for software developers. As a developer, you don't necessarily need a deep understanding of a freely available dataset to put it to some interesting uses, but you do need to know what is in the data and what kinds of questions you can answer with it.
+In this series I'll briefly introduce a number of MPC data products and highlight points of interest for software developers. As a developer, you don't necessarily need a deep understanding of a dataset to put it to some interesting uses, but you do need to know what is in the data and what kinds of questions you can answer with it.
 
 For every product I'll tell you: 
 
@@ -36,13 +36,15 @@ And now, on to our first data product spotlight!
 
 Find it at <a href="www.atusdata.org">http://www.atusdata.org/</a>.
 
-  **What is ATUS** 
+  **What is ATUS?** 
 
-The American Time-Use Survey is a survey which tries to capture how Americans spend their time and with whom they spend it. ATUS has run annually since 2003. (Some older U.S. time use data also exists, and some other countries do time use surveys as well. We're working on making that data available too!) The Bureau of Labor Statistics is responsible for the ATUS. 
+The American Time-Use Survey is a survey which tries to capture how Americans spend their time and with whom they spend it. ATUS has run annually since 2003. (Some older U.S. time use data also exists, and some other countries do time use surveys as well. We're working on making that data available too!) The Bureau of Labor Statistics is responsible for the ATUS.
+
+The MPC's ATUS-X project created a system to integrate the ATUS surveys across time and allow users to build custom data extracts from those datasets.
 
 **Description of the Survey** 
  
-The "American Time-Use Survey" started in 2003 and has run every year since then. Participants in the survey are drawn from the Current Population Survey, a larger survey. Thirteen to twenty thousand households are included in the time-use survey and one individual from the household responds to a phone survey where they describe in great detail what they did with their time over a twenty-four hour period. The survey is spread throughout the year and on different days of the week. 
+The American Time-Use Survey started in 2003 and has run every year since then. Participants in the survey are drawn from the Current Population Survey, a larger survey. Thirteen to twenty thousand households are included in the time-use survey and one individual from the household responds to a phone survey where they describe in great detail what they did with their time over a twenty-four hour period. The survey is spread throughout the year and on different days of the week. 
  
 Participants provide starting and stopping times for all activities. The activities get categorized into some six hundred possible activities. Secondary activities get recorded as well, with special modules for eating and drinking and well-being. Special attention is also paid to child care activities that might occur alongside other activities, as well as care for elders. Participants are asked who else was present during activities, so the survey data also captures who participated in activities with the respondent.
  
@@ -54,7 +56,7 @@ We offer a way for users to create their own time use variables, eliminating mos
  
 Designing the web user interface to formulate the time use variable request and keeping the UI concise but not confusing or misleading was an interesting challenge. The back-end process for creating these variables on the fly was also something not done in other products and is an interesting difference from other microdata products at the MPC. It makes the data extract system more of a data creation system and adds tremendous value to the time use data.
 
- **What can I do With ATUS** 
+ **What can I do With ATUS Data?** 
  
  Here's a sampling of some of the interesting things one could do with ATUS data.
 
@@ -66,6 +68,6 @@ Designing the web user interface to formulate the time use variable request and 
 * You could visualize a particular activity, such as time spent taking care of pets, as a line or bar plot with total minutes spent (bucketed into say 30 groups) on one axis and the number of people spending that amount of time on the other axis.
 * Since activities are listed in order for each person in the survey, you could add information on each activity record about the previous and subsequent activity. You could then answer questions like "What do people do after school?" or "How much time is spent driving before and after a restaurant meal?"
 
-For more ideas, see our <a href="http://bibliography.ipums.org"> bibliography</a> for specific publications that used the ATUS. If you've used ATUS data, share your story in the comments.
+For more ideas, see our <a href="http://bibliography.ipums.org"> bibliography</a> for specific publications that used the ATUS data from MPC. If you've used ATUS data, share your story in the comments.
 
 Stay tuned for more installments of the Data Product Spotlight!
