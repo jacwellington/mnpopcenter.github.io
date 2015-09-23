@@ -32,10 +32,12 @@ The blog is managed like any other git/Github repository.  Blog editors manage t
 5. Add your markdown-formatted blog content below the front matter.
 6. (First time only) Run `bundle install`
 7. Run `jekyll serve --config _config.yml,_config_dev.yml`
-8. Open http://localhost:4000/ (or whatever URL Jekyll used) and check your work.
-9. Iterate.  The local server will reflect changes automatically.
-10. When done, `git add . && git commit -a && git push`
-11. Submit a pull request back to this repo.
+8. Open http://localhost:4000/ (or whatever URL Jekyll reported that it used in the last step) and check your work.
+9. Iterate.  The local server will reflect changes automatically by detecting when files change.
+10. When done, do `git add . && git commit -a && git push`
+11. Submit a pull request back to this repo.  If you want someone else to do an editing pass on it before merging, you need to add their github.com account as a read/write collaborator on _your fork_ of the repo.
+
+You can reuse the same git clone to do future blog posts, too.  You might want to merge upstream first, but it's actually not necessary.
 
 You really ought to read the rest of these instructions, though.
 
