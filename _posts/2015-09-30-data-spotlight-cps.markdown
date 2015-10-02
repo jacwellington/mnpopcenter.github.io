@@ -1,6 +1,6 @@
 ---
 title: 'Data Product Spotlight:  Current Population Survey'
-teaser: 'Our newest data product spotlight shines on CPS, the federal government's monthly survey on employment in America, among other topics.'
+teaser: 'Our newest data product spotlight shines on CPS, the federal government monthly survey on employment in America, among other topics.'
 author: ccd
 categories: IPUMS
 ---
