@@ -1,6 +1,6 @@
 ---
 layout: page
-author: jayandra
+author: mpcit
 title: 'IT Core Spotlight: Jayandra Pokharel'
 teaser: Introducing Jayandra Pokharel, one of our IPUMS developers.
 categories:
