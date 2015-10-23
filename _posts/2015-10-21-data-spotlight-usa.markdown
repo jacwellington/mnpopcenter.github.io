@@ -8,7 +8,7 @@ categories: IPUMS
 
 ## MPC Data Product: IPUMS USA (__Integrated Public Use Microdata Series__ for the U.S.A.)
 
-Find it at <a href="http://usa.ipums.org">http://usa.ipums.org</a>.
+Find it at <a href="http://usa.ipums.org">http://usa.ipums.org/</a>.
 
 ###  **What is IPUMS USA** 
 
@@ -78,7 +78,5 @@ Here's an interesting article that uses ACS and census data on housing costs and
 ##### New Data on Race and Same-Sex Partnership
 
 In 2000 and 2010 the Census has allowed more than one response to the question of race and same-sex partnerships (marriage was not an option but an "unmarried partner" response was collected.) Using the microdata you can study households with much more nuance regarding race and same-sex partner relationships and families. 
-
-----------
 
 I hope you enjoyed this introduction to IPUMS USA, the MPC's oldest data product.  For more research ideas, be sure to check our <a href="bibliography.ipums.org"> bibliography</a> to discover the many papers, books and articles using the IPUMS USA data.
