@@ -10,15 +10,14 @@ title: "MPC IT Tech Blog"
 header:
    image_fullwidth: "header_science.png"
 widget-1:
+    title: "WE'RE HIRING!"
+    url: 'working-mpc/career-opportunities/'
+    text: 'MPC IT is currently seeking a Linux sysadmin!'
+widget-2:
     title: "About the MPC"
     url: 'http://www.pop.umn.edu'
     text: 'The Minnesota Population Center (MPC) is an interdisciplinary research center at the University of Minnesota. As a leading developer and disseminator of some of the world&#39;s largest demographic databases, we serve an audience of more than 50,000 researchers, policymakers, journalists, and data scientists around the globe.'
     image: umn-logo.jpg
-widget-2:
-    title: 
-    url: 'http://phlow.github.io/feeling-responsive/info/'
-    text: '<em>Feeling Responsive</em> is heavily customizable.<br>1. Language-Support :)<br>2. Optimized for speed and it&#39;s responsive.<br>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br>4. Seven different Headers.<br>5. Customizable navigation, footer,...'
-    video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""></a>'
 widget-3:
     title: 
     url: 'https://github.com/Phlow/feeling-responsive'
