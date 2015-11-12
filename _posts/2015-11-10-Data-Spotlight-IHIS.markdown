@@ -49,11 +49,41 @@ The data follows the structure of other MPC micro-data, grouping people into hou
 
 Not all years of the survey contain all the listed records under the person records by any means. Motor vehicle accidents only appeared as  distinct record types in two survey years, for instance.
 
-In addition to offering data attached to individual people directly we aggregate some of this information from injury and condition records to attach to each person record, making the data easier to use in many cases. 
+In addition to offering data attached to individual people directly we aggregate some of this information from injury and condition records to attach to each person record, making the data easier to use for some purposes.
 
 Each annual dataset contains approximately fifty-thousand households with all their people,around one-hundred to one-hundred thirty thousand people.
 
-### **
+### **IHIS Software Challenges and Highlights**
+
+The NHIS survey has many questions. For some questions if you answer "yes" to an initial question, you will get a follow-up set of questions on a particular topic relevant  to you. Combining all possible sets of questions into a set of questions applicable to any person in the survey yields a very large (multi-thousand) set of variables on each person record. 
+
+In addition NHIS has some of these detailed questions stored in the form of sub-records to the person record: For example a person may have many conditions -- a varying number -- or medications, etc. Some of the most useful information gets summarized onto the person record, resulting in even more person variables.
+
+So one unusual characteristic of the IHIS data is the very wide person record, making storage in most relational databases problematic. Certainly we could find work-arounds, but these complicate the back-end for no gain -- we're not interested in retrieving individual records or updating a few records at a time or adding to them.
+
+The other interesting quality of the data, mentioned already is that there are many record types associated with the person records. You might represent these relationships like "people have many doctor visits, many medications" and so forth -- a very standard  one to many scheme. What makes this problematic is the need to consume and produce entire datasets at once and compute lots of new values on every record in the process. The most  efficient representation is more along the lines of a hierarchical document model, where all records have been joined but no data is repeated. Apart from the redundancy of field names in the data, JSON is a good representation. The following figure shows a slice of the data. Keep in mind there's no set number of "child" records that must follow their "parent" types. 
+
+	household: [ ....data values ]
+		person: [ ...values ....]
+			injury: [... data ... ]
+			injury: [ ... data ... ]
+			medication: [ ... data ...]
+			hospitalization: [ ,... data ...]
+		person: [ ... data ...]
+			injury: [ ...data...]
+	household: [ data ...]
+	
+and so forth for every single household surveyed. This is the most efficient format for reasoning over the data at the micro level but it doesn't lend itself to efficient tabulation,  search, or filtering. 
+
+We first produce the "integrated" data using the hierarchical format (we do this for all microdata.) For later analysis and extraction we transform the data into the most effective formats.
+
+The sheer number of variables in the integrated IHIS poses a challenge in navigating the data extraction system and locating the questions users want to study. Conceptually it's easy enough to imagine a checklist of variables where users check those they're interested in retrieving. The user interface design  to make this a reality is not trivial.
+
+
+
+
+
+
 
 
 
