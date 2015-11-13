@@ -14,7 +14,9 @@ Find it at <a href="http://ihis.us"> ihis.us</a>.
 
 The IHIS  integrates the NHIS (National Health Interview Survey) and makes the data available in one comprehensive data extract system. It contains annual health data from 1963 to the present. The survey asks many questions and those questions have varied greatly over time.  The NHIS public use files provide the source of the IHIS data.
 
-As with other MPC data the "integration" applied to the data distinguishes the MPC IHIS from the NHIS data. Integration in IHIS must provide some common variables out of very different data across time. For instance,
+The NHIS covers health status, acute and chronic illness, disability, access and utilization of health care services, health insurance coverage and health related behaviors.
+
+IHIS integrates data across time to enable researchers to do time series analysis. As with other MPC data the "integration" applied to the data distinguishes the MPC IHIS from the NHIS data. Integration in IHIS must provide some common variables out of very different data across time. For instance,
 
 	"...A second feature of integration in IHIS is combining, into a single variable, material covering comparable substantive ground but appearing in different
 	types of files in the original NHIS public use data. For example, IHIS combines information on whether an individual had a usual place for medical care
@@ -28,9 +30,11 @@ As with other MPC data the "integration" applied to the data distinguishes the M
 
 As with all MPC data products the consistent browsable and searchable documentation adds a lot to the usefulness of the data.
 
+Read the introduction to <a href="https://www.ihis.us/ihis/resources/AHC_2011_poster.pdf"> this </a> for a more detailed explaination of IHIS and the value it provides to health research.
+
 ### **Description of IHIS Data**
 
-The data has supplementary information in some years on children and adults (different questions) At intervals the survey asks extra questions on topics. In 2002, 2007 and 2012 the NHIS included the Complimentary and Alternative Medicine questions, asking about use of "alternative medicine" and conditions people  used it for.
+The data has supplementry information in some years on children and adults (different questions) At intervals the survey asks extra questions on topics. In 2002, 2007 and 2012 the NHIS included the Complimentary and Alternative Medicine questions, asking about use of "alternative medicine" and conditions people  used it for.
 
 The data follows the structure of other MPC micro-data, grouping people into households, allowing researchers to study people in the context of their households and families. In addition to people and households, the IHIS data has many records attached to people, most of which MPC hasn't yet released publically (but we will.) every person got asked about every health condition they have, or in other years every injury they suffered. In future we plan to include these additional types of information for people:
 
@@ -75,13 +79,23 @@ The other interesting quality of the data, mentioned already is that there are m
 	
 and so forth for every single household surveyed. This is the most efficient format for reasoning over the data at the micro level but it doesn't lend itself to efficient tabulation,  search, or filtering. 
 
-We first produce the "integrated" data using the hierarchical format (we do this for all microdata.) For later analysis and extraction we transform the data into the most effective formats.
+We first produce the "integrated" data using the hierarchical format (we do this for all microdata.) For later analysis and extraction we transform the data into the most effective formats. To be clear, if you request data from IHIS you will get, by default a flat file either as CSV or fixed-width, optionally in native stats application (Stata, SAS, SPSS format.) You can request data in hierarchical form and in that case you get the format described above.
 
-The sheer number of variables in the integrated IHIS poses a challenge in navigating the data extraction system and locating the questions users want to study. Conceptually it's easy enough to imagine a checklist of variables where users check those they're interested in retrieving. The user interface design  to make this a reality is not trivial.
+The sheer number of variables in the integrated IHIS poses a challenge in navigating the data extraction system and locating the questions users want to study. Conceptually it's easy enough to imagine a checklist of variables where users check those they're interested in retrieving. The user interface design  to turn this idea into a working interface  is not trivial.
 
+### **What Can I Study With IHIS?**
 
+IHIS contains a vast  number of health-related topics. The survey has changed a lot over time, so many detailed topics won't have coverage all the way back to 1963. 
 
+You can find very simple types of information such as height, weight, age, general health status in addition to basic demographic and economic information.  The IHIS as basic geography information:  region and metro area. Keep in mind that with under 150,000 people you cannot study small regions well.
 
+For children you can find very detailed information about school and services at school, for adults there is detailed information about jobs and health insurance. To effectively use the detailed information applying to only part of the survey you need to understand "flag" variables and weight variables.  See the online documentation.
+
+Here are a few examples of what can be done with the data. Read over these data briefs to get an appreciation for what you can do with IHIS and what it takes to effectively use the data.
+
+*  <a href="https://www.ihis.us/ihis/resources/IHIS_Data_Brief_No_2.pdf"> Data Brief: Did the Affordable Care Act affect insurance coverage for young adults? </a>.
+*  <a href="https://www.ihis.us/ihis/resources/IHIS_Data_Brief_No_1.pdf"> Data Brief: Food Insecurity in the United States 1998-2003 </a>.
+*   <a href="https://www.ihis.us/ihis/resources/Lee_APHA_Presentation.pdf">  Presentation on studying complementary and alternative medicine use with the IHIS.</a> Note that this presentation only includes data for 2002 and 2007 biut there's a supplement for 2012 available now as well.
 
 
 
