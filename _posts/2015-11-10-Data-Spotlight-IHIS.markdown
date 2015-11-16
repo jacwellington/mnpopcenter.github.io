@@ -16,9 +16,17 @@ The IHIS integrates the annual NHIS (National Health Interview Survey) and makes
 
 IHIS integrates data across time to enable researchers to do time series analysis. As with other MPC data, the integration applied to the data distinguishes the MPC's IHIS product from the NHIS data. Integration in IHIS must provide some common variables out of very different data across time. For instance,
 
-	"...A second feature of integration in IHIS is combining, into a single variable, material covering comparable substantive ground but appearing in different types of files in the original NHIS public use data. For example, IHIS combines information on whether an individual had a usual place for medical care into a single variable (USUALPL).
+	"...A second feature of integration in IHIS is combining, into a single 
+	variable, material covering comparable substantive ground but appearing 
+	in different types of files in the original NHIS public use data. For 
+	example, IHIS combines information on whether an individual had a usual 
+	place for medical care into a single variable (USUALPL).
 	
-	This information appeared for many years under different variable names and in several different types of files (including the Health Promotion and Disease Prevention, Cancer Control, Child Health, and Access to Care supplements and the core Sample Adult and Sample Child files) in the original NHIS public use files." [from the IHIS documentation]
+	This information appeared for many years under different variable names 
+	and in several different types of files (including the Health Promotion 
+	and Disease Prevention, Cancer Control, Child Health, and Access to 
+	Care supplements and the core Sample Adult and Sample Child files) in 
+	the original NHIS public use files." [from the IHIS documentation]
 
 As with all MPC data products the consistent browsable and searchable documentation adds a lot to the usefulness of the data.
 
@@ -87,7 +95,7 @@ Here are a few examples of what can be done with the data. Read over these data 
 
 *  <a href="https://www.ihis.us/ihis/resources/IHIS_Data_Brief_No_2.pdf"> IHIS Data Brief: Did the Affordable Care Act affect insurance coverage for young adults? </a>.
 *  <a href="https://www.ihis.us/ihis/resources/IHIS_Data_Brief_No_1.pdf"> IHIS Data Brief: Food Insecurity in the United States 1998-2003 </a>.
-*   <a href="https://www.ihis.us/ihis/resources/Lee_APHA_Presentation.pdf">  Presentation on studying complementary and alternative medicine use with the IHIS.</a> Note that this presentation only includes data for 2002 and 2007 biut there's a supplement for 2012 available now as well.
+*   <a href="https://www.ihis.us/ihis/resources/Lee_APHA_Presentation.pdf">  Presentation on studying complementary and alternative medicine use with the IHIS.</a> _Note that this presentation only includes data for 2002 and 2007 biut there's a supplement for 2012 available now as well._
 
 Due to the complex record structure and sheer number of variables, IHIS is one of the more interesting and challenging microdata projects from an IT perspective. We hope this introduction has piqued your curiosity to explore this important resource of health data!
 
