@@ -6,7 +6,7 @@ categories: IPUMS
 ---
 
 
-## MPC Data Product: IHIS (__Integrated Health Interview Series	__)
+## MPC Data Product: IHIS (Integrated Health Interview Series)
 
 Find it at <a href="http://ihis.us/">ihis.us</a>.
 
