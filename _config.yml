@@ -34,7 +34,7 @@ improve_content: https://github.com/mnpopcenter/mnpopcenter.github.io/edit/gh-pa
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-urlimg: "http://tech.popdata.org/images"
+urlimg: "http://tech.popdata.org/images/"
 
 # Logo size is 600x80 pixels
 # Fran says logo isn't quite that size, actually...
