@@ -14,7 +14,7 @@ permalink: /working-mpc/career-opportunities/
 
 **Linux System Administrator (MPC IT Operations Team)** - We are currently seeking a sysadmin for the MPC IT Operations team.   The ideal candidate will have strong foundational Linux sysadmin  skills along with a particular interest in clustered/distributed computing. In this wide-ranging role, you will have the potential to work on challenges as diverse as automated scale-up/scale-down of infrastructure, caching layers, build-out of continuous integration / continuous deployment environments, improvement of API call performance, and management of our data processing pipelines using technologies such as Apache Spark.  
 
-For more details, see: [*Link to official application anticipated by November 13, 2015! Drop us a line at mpcitops@umn.edu to let us know you're interested, and we'll ping you when it's posted. In the meantime, poke around the blog and see what we've been up to.*]
+For more details, see the [official job posting]({{ site.url }}/assets/docs/LinuxSysadminNov2015.pdf).
 
 ---
 
