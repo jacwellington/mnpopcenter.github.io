@@ -1,10 +1,9 @@
 ---
 title: 'Data Product Spotlight:  IHIS'
-teaser: 'Executive summaries for software developers on MPC data'
+teaser: 'In this edition of the data product spotlight, Colin introduces us to IHIS, our health survey data product.'
 author: ccd
 categories: IPUMS
 ---
-
 
 ## MPC Data Product: IHIS (Integrated Health Interview Series)
 
