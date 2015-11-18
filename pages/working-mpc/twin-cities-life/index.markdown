@@ -22,7 +22,7 @@ The Twin Cities area is a modern, thriving community of more than 3 million peop
 
 When it comes to work, the Twin Cities has a strong and diversified economy. This broad base helps us weather economic bumps better than most, and in 2014 our unemployment rate was a US-leading 4%. We havelarge employers in retail (Target, Best Buy), medical (Medtronic, St. Jude Medical, UnitedHealth, Ecolab), higher ed (U of Minnesota, Macalester, Hamline, Augsburg, St. Catherine, Concordia), food (General Mills, Land O Lakes, Cargill, Supervalu, CHS), finance (US Bank, Ameriprise, Thrivent) and manufacturing (3M, Valspar). We also have an innovative startup culture and thousands of small businesses.
 
-###TWIN CITIES AT A GLANCE
+### TWIN CITIES AT A GLANCE
 
 <a href="/images/from_wp/work-life-balance.jpg"><img class="size-medium wp-image-232 alignright" src="/images/from_wp/work-life-balance-300x150.jpg" alt="work-life-balance" width="300" height="150" /></a>
 

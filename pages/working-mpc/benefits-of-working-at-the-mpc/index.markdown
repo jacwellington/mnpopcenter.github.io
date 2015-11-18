@@ -21,11 +21,11 @@ permalink: /working-mpc/benefits-of-working-at-the-mpc/
 * The Regents Scholarship Program, which provides tuition benefits covering 75-100% of tuition.
 * Generous vacation and sick leave policies
 
-###Work-Life Balance
+### Work-Life Balance
 
 The MPC understands the importance of work-life balance. We work hard to ensure that supervisors and employees are empowered to create flexible work schedules that allow our staff to attend to their families and other demands on their time while still doing their best work at the office. We think a 40 hour workweek is normal, and strive to get our staff home to family and friends when the workday is done. While we are a close-knit community that likes to have as much face time as possible, we also know that remote work can also be part of a healthy mix.  It's this philosophy that makes the MPC part of the <a href="http://www.startribune.com/what-is-it-about-minnesota-that-makes-it-a-top-place-to-work/307168791/">top region to work in the US</a> and the <a href="http://www.startribune.com/minnesota-is-best-state-for-working-dads-analysis-says/308473771/">best state for working dads</a>, to mention a few recent accolades Minnesota has received.
 
-###Professional Development
+### Professional Development
 
 Recognizing the necessity of lifelong learning for IT employees, MPC IT has a robust professional development program. Professional development plans are crafted for each employee every year, and all of our staff members have opportunities to receive training (and share our work and knowledge by presenting) at local and national events. We make sure that our staff has all of the hardware, software, books, online training, and other support needed to succeed in their current role and continue growing.
 
