@@ -96,11 +96,6 @@ In his free time, Kevin teaches group fitness classes at the YWCA of Minneapolis
 
 ***
 
-### Judy Kallestad
-IT Operations Manager
-
-***
-
 ### Ben Klaas
 <a href="{{ site.urlimg }}/from_wp/ben-klaas-e1420575378509.jpg"><img class=" wp-image-421 size-thumbnail alignright" src="{{ site.urlimg }}/from_wp/ben-klaas-e1420575378509-150x150.jpg" alt="ben-klaas" width="150" height="150" /></a>Ben began his career as an ecologist, studying pocket gophers on native grasslands. Data proved to be a second passion though, and he's been working in computing since the late 1990s on a wide variety of gadgets and gizmos: routers, satellite data, DSL hardware, streaming audio consumer electronics, phone and voicemail software, and now human population data.
 
@@ -125,7 +120,7 @@ I am currently working on dropping a shiny new UI on our Terrapop product.
 ***
 
 ### Willy Lee
-Willy Lee started his web work while studying studio art at Carleton College. The web was something you could learn the entire body of knowledge in an afternoon at that time. He took his love of narrative and storytelling to this new medium and somehow stumbled upon a career. After a decade at the Minneapolis Institute of Arts doing all things web, he turned his focus to application performance. As a sysadmin at the MPC, he profiles and monitors system performance and works with our programmers and systems team to find ways to deliver speed and reliability to our users.
+Willy Lee started his web work while studying studio art at Carleton College. The web was something you could learn the entire body of knowledge in an afternoon at that time. He took his love of narrative and storytelling to this new medium and somehow stumbled upon a career. After a decade at the Minneapolis Institute of Arts doing all things web, he turned his focus to application performance. As the IT Ops Manager at the MPC, he and his team profile and monitor system performance and work with our programmers to find ways to deliver speed and reliability to our users.
 
 In his free time, Willy is a cycling advocate, election judge, outdoorsman, home chef, and enthusiastic diner. He lives in south Minneapolis with his spouse and three cats. He's always happy to talk about bikes, cats, food, cats, internet, cats, and internet optimization.
 
