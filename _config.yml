@@ -78,25 +78,26 @@ exclude:
 # Default Settings
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      show_meta: true
+      author: "mpcit"
   -
     scope:
       path: "" 				# an empty string here means all files in the project
       type: "pages"
     values:
-      show_meta: true 	# Show metadata beneath all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
-      author: "mpcit"
+      comments: false
   -
     scope:
       path: ""        
       type: "posts"
     values:
-      layout: page
-      show_meta: true   # Show metadata beneath all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
-      author: "mpcit"
-
-
+      comments: true
 
 #       _   __            _             __  _           
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
