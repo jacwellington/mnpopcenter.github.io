@@ -1,4 +1,5 @@
 ---
+layout: page
 title: 'Data Product Spotlight:  IHIS'
 teaser: 'In this edition of the data product spotlight, Colin introduces us to IHIS, our health survey data product.'
 author: ccd

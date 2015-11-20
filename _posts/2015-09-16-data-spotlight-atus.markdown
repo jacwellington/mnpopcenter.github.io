@@ -1,4 +1,5 @@
 ---
+layout: page
 title: 'Data Product Spotlight: Series Intro and the American Time Use Survey'
 teaser: 'Colin Davis launches a new series which will provide quick summaries of our microdata products from a developer perspective.  In this first post, he introduces the concept then takes a look at the American Time-Use Survey.'
 author: ccd

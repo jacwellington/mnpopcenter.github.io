@@ -1,4 +1,5 @@
 ---
+layout: page
 title: 'Data Product Spotlight:  IPUMS USA'
 teaser: 'This edition of the Data Product Spotlight goes wayyy back to the very beginnings of the MPC and takes a look at our first and still most widely known data product, IPUMS USA.'
 author: ccd
