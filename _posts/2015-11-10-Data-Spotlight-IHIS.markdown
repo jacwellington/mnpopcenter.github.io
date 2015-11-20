@@ -6,13 +6,11 @@ author: ccd
 categories: IPUMS
 ---
 
-## MPC Data Product: IHIS (Integrated Health Interview Series)
-
 Find it at <a href="http://ihis.us/">ihis.us</a>.
 
 ### **What is IHIS?**
 
-The IHIS integrates the annual NHIS (National Health Interview Survey) and makes the data available in one comprehensive data extract system. It contains annual health data from 1963 to the present. The survey asks many questions and those questions have varied greatly over time. The NHIS public use files provide the source of the IHIS data. The NHIS covers health status, acute and chronic illness, disability, access and utilization of health care services, health insurance coverage and health related behaviors.
+The IHIS (Integrated Health Interview Series) integrates the annual NHIS (National Health Interview Survey) and makes the data available in one comprehensive data extract system. It contains annual health data from 1963 to the present. The survey asks many questions and those questions have varied greatly over time. The NHIS public use files provide the source of the IHIS data. The NHIS covers health status, acute and chronic illness, disability, access and utilization of health care services, health insurance coverage and health related behaviors.
 
 IHIS integrates data across time to enable researchers to do time series analysis. As with other MPC data, the integration applied to the data distinguishes the MPC's IHIS product from the NHIS data. Integration in IHIS must provide some common variables out of very different data across time. For instance,
 
