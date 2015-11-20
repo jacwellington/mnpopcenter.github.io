@@ -14,15 +14,14 @@ widget-1:
     url: 'working-mpc/career-opportunities/'
     text: 'MPC IT is currently seeking a Linux sysadmin!'
 widget-2:
+    title: "MPC IT On Tour"
+    url: 'ontour/'
+    text: 'Where We&#39;ll Be / Where We&#39;ve Been'
+widget-3:
     title: "About the MPC"
     url: 'http://www.pop.umn.edu'
     text: 'The Minnesota Population Center (MPC) is an interdisciplinary research center at the University of Minnesota. As a leading developer and disseminator of some of the world&#39;s largest demographic databases, we serve an audience of more than 50,000 researchers, policymakers, journalists, and data scientists around the globe.'
     image: umn-logo.jpg
-widget-3:
-    title: 
-    url: 'https://github.com/Phlow/feeling-responsive'
-    text: '<em>Feeling Responsive</em> is totally free and licensed under the MIT License. Make it your own and do with it what you want. Grab your copy or clone it at GitHub and start your website with it. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
-    image: github-303x182.jpg
 ---
 
 
