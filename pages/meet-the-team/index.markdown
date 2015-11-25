@@ -4,8 +4,6 @@ status: publish
 published: true
 title: Meet the Team
 author: mpcit
-wordpress_id: 357
-wordpress_url: http://tech.popdata.org/?page_id=357
 date: '2015-01-07 08:24:33 -0600'
 date_gmt: '2015-01-07 14:24:33 -0600'
 categories: []
