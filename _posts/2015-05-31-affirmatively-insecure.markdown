@@ -108,8 +108,8 @@ Perhaps if I avoid googling "tools to check certificate validity", I'll extend m
 
 <hr/>
 
-[img-insecure]: /images/from_wp/crop-insecure.png "Affirmatively insecure"
-[img-minor]: /images/from_wp/crop-minor-errors.png "Secure, but with minor errors"
+[img-insecure]: /images/crop-insecure.png "Affirmatively insecure"
+[img-minor]: /images/crop-minor-errors.png "Secure, but with minor errors"
 [L1]: http://googleonlinesecurity.blogspot.com/2014/09/gradually-sunsetting-sha-1.html
 [L2]: https://shaaaaaaaaaaaaa.com/
 [L3]: https://konklone.com/

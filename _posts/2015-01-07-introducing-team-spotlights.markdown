@@ -18,7 +18,7 @@ To that end, we've just launched our Spotlight series. Every month we'll do a mi
 
 <a title="IT Core Spotlight: Fran Fabrizio" href="http://tech.popdata.org/it-core-spotlight-fran-fabrizio/">Fran Fabrizio</a>
 
-<a title="IT Core Spotlight: Rosie Hoyem" href="http://tech.popdata.org/it-core-spotlight-rosie-hoyem/">Rosie Hoyem</a>
+Rosie Hoyem
 
 <a title="IT Core Spotlight: Ben Klaas" href="http://tech.popdata.org/it-core-spotlight-ben-klaas/">Ben Klaas</a>
 

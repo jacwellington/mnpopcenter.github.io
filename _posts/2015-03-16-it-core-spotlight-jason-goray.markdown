@@ -14,7 +14,7 @@ categories:
 - Team
 tags: []
 ---
-<strong><a href="/images/from_wp/jason_goray.jpg"><img class=" size-medium wp-image-624 alignright" src="/images/from_wp/jason_goray-225x300.jpg" alt="jason_goray" width="225" height="300" /></a>Project:</strong> All (more or less) MPC web facing projects
+<strong><a href="/images/jason_goray.jpg"><img class=" size-medium wp-image-624 alignright" src="/images/jason_goray-225x300.jpg" alt="jason_goray" width="225" height="300" /></a>Project:</strong> All (more or less) MPC web facing projects
 <strong>Favorite Dev Tool:</strong> MacBook Pro
 <strong>Fun Fact:</strong> Despite what it says in Zen and the Art of Motorcycle Maintenance, Ph&aelig;drus does not mean "wolf".
 

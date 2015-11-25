@@ -13,7 +13,7 @@ categories:
 - Data Processing
 tags: []
 ---
-Here at the MPC, we deal with lots of different kinds of source data.  The Data Conversion Program (DCP) creates the MPC's harmonized version of microdata for many of the <a title="Data Products" href="http://tech.popdata.org/data-products/">MPC's data products</a>.
+Here at the MPC, we deal with lots of different kinds of source data.  The Data Conversion Program (DCP) creates the MPC's harmonized version of microdata for many of the <a title="Data Products" href="http://tech.popdata.org/about/data-products/">MPC's data products</a>.
 
 ### What's Special About MPC Harmonized Microdata?
 Until the MPC's <a href="http://www.ipums.org/">IPUMS</a> (Integrated Public Use Microdata Series) project came along, social science researchers needed to hire programmers or write code themselves to use more than one machine readable U.S. census sample at once.  That's because the Census Bureau's mission is to take the best possible current snapshot of the U.S. population, not a backwards-compatible one.  A lot changes in a decade - different social issues rise to the forefront, statistical methods improve, the size of the population grows... as a result, the Bureau asks different questions each census, or allows different answers to the same questions.  As a result, censuses are not natively comparable through time.

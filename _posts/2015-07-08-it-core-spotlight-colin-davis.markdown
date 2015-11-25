@@ -7,7 +7,7 @@ categories:
 - Team
 ---
 
-![Colin]({{site.urlimg}}/from_wp/colin.jpg){:.imgleft .r15 .pr20 style="float:left"}
+![Colin]({{site.urlimg}}/colin.jpg){:.imgleft .r15 .pr20 style="float:left"}
 
 * **Hometown:** Manhattan, KS
 * **Favorite Dev Tool:** Nostalgic picks: Turbo Pascal 3.0 / 6.0, Turbo Assembler. Currently Valgrind is my only favorite tool that’s not a programming language.

@@ -158,7 +158,7 @@ This change had the desired effect.  Comparisons like Melissa Moreno <=> Melissa
 
 ## Wrapping Up
 
-<a href="/images/from_wp/haster.jpg"><img class="size-medium wp-image-227 alignright" src="/images/from_wp/haster-300x217.jpg" alt="hamster" width="300" height="217" /></a>
+<a href="/images/haster.jpg"><img class="size-medium wp-image-227 alignright" src="/images/haster-300x217.jpg" alt="hamster" width="300" height="217" /></a>
 
 At this point, I was happy with my algorithm soup.  I ran the process over the entire set of over 100k users and 10k citations and by the end of the day I had forwarded a list of potential matches and their confidence scores to our user support team for verification.  Preliminary indications are that we should be able to make links for at least 50% of our citations.  Not bad for a day's work!
 
